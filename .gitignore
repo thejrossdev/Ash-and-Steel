@@ -1,0 +1,99 @@
+# Pakku
+build/
+!.pakku/**/*
+!pakku.jar
+
+# Files
+**/*.log
+**/*.gz
+**/*.DS_Store
+**/*.jar
+**/*.mrpack
+**/*.code-workspace
+**/*.zip
+
+# Configs
+config/jei/world/
+config/jei/worldSettings.cfg
+
+config/fml.toml
+config/forge-client.toml
+
+config/fancymenu/menu_identifiers.db
+config/fancymenu/user_variables.db
+
+config/oculus.properties
+config/embeddium-fingerprint.json
+
+!config/defaultoptions/options.txt
+
+defaultconfigs/ftbranks/players.snbt
+
+# IDE & dev files
+.vs/
+.vscode/
+.idea/
+kubejs/jsconfig.json
+package.g.props
+node_modules/
+.env
+
+# Base .minecraft files
+!bansoukou/**.zip
+
+/.bobby
+/.mixin.out
+/classOut
+/backups
+/profileImage
+/crash-reports
+/logs
+/saves
+/ldlib
+/local
+/modernfix
+/XaeroWaypoints*
+/XaeroWorldMap*
+/xaero
+/fancymenu_data
+/fancymenu_setups
+/downloads
+/CustomSkinLoader
+/EverlastingSkins
+/cache
+/screenshots
+/shaderpacks
+/data
+/ESM
+/schematics
+/scripts
+/mods
+
+# Only Server files
+# .pakku/server-overrides/libraries
+# .pakku/server-overrides/config
+# .pakku/server-overrides/defaultconfigs
+# .pakku/server-overrides/groovy
+# .pakku/server-overrides/scripts
+# .pakku/server-overrides/mods
+# .pakku/server-overrides/user_jvm_args.txt
+
+# Only client files
+bansoukou
+.curseclient
+.sl_password
+options.txt
+patchouli_data.json
+usernamecache.json
+usercache.json
+rhino.local.properties
+profile.json
+emi.json
+sl_password.txt
+servers.dat
+servers.dat_old
+minecraftinstance.json
+knownkeys.txt
+optionsof.txt
+optionsshaders.txt
+icon.png
