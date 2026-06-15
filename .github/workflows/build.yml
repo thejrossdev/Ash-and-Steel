@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - dev
-      - main
+      - master
     paths:
       - '.pakku'
       - 'config'
@@ -19,7 +19,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  DEV_ENVIRONMENT: ${{ github.ref_name != 'main' }}
+  DEV_ENVIRONMENT: ${{ github.ref_name != 'master' }}
 
 jobs:
   info:
