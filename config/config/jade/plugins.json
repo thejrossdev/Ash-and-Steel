@@ -51,6 +51,10 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "saintsdragons": {
+    "egg_timer": true,
+    "dragon_info": true
+  },
   "treechop": {
     "plugin": true,
     "show_tree_block_counts": true,
@@ -82,10 +86,6 @@
     "adventure": true,
     "ench": true,
     "spawner": true
-  },
-  "iceandfire": {
-    "multipart": true,
-    "dragon": true
   },
   "balm": {
     "jade": true

@@ -77,6 +77,16 @@
 			#Range: 0.0 ~ 1.7976931348623157E308
 			toughness_multiplier = 1.0
 
+	[tools_and_abilities.geomancerArmor]
+
+		[tools_and_abilities.geomancerArmor.armor_config]
+			#Multiply armor damage reduction by this amount. See official Minecraft Wiki for an explanation of how armor damage reduction works.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			damage_reduction_multiplier = 1.0
+			#Multiply armor toughness by this amount. See official Minecraft Wiki for an explanation of how armor toughness works.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			toughness_multiplier = 1.0
+
 	[tools_and_abilities.spear]
 
 		[tools_and_abilities.spear.tool_config]
@@ -110,16 +120,6 @@
 		#Multiply all damage done with the blowgun/darts by this amount.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		attack_damage = 1.0
-
-	[tools_and_abilities.geomancerArmor]
-
-		[tools_and_abilities.geomancerArmor.armor_config]
-			#Multiply armor damage reduction by this amount. See official Minecraft Wiki for an explanation of how armor damage reduction works.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			damage_reduction_multiplier = 1.0
-			#Multiply armor toughness by this amount. See official Minecraft Wiki for an explanation of how armor toughness works.
-			#Range: 0.0 ~ 1.7976931348623157E308
-			toughness_multiplier = 1.0
 
 	[tools_and_abilities.earthrend_gauntlet]
 		#Multiply all damage done with the Earthrend Gauntlet by this amount.
@@ -336,14 +336,14 @@
 			attack_multiplier = 1.0
 
 	[mobs.sculptor]
-		#Disable/enable the Sculptor healing while not in combat
-		heals_out_of_battle = true
 		#How tall (in blocks) the Sculptor's test will be
 		#Range: 1 ~ 500
 		test_height = 60
 		#The time limit (in seconds) for completing the Sculptor's test
 		#Range: 1 ~ 36000
 		test_time_limit = 400
+		#Disable/enable the Sculptor healing while not in combat
+		heals_out_of_battle = true
 		#Disable/enable the Sculptor's boss health bar
 		has_boss_bar = true
 		#Which item the Sculptor desires in exchange for a chance to try his challenge
@@ -362,7 +362,7 @@
 			#A blank entry means all biomes. No entries means no biomes.
 			#For example, 'minecraft:is_forest,forge:is_spooky,!forge:is_snowy' would mean all biomes that are spooky forests but not snowy forests
 			#'!minecraft:is_mountain' would mean all non-mountain biomes
-			biome_tags = ["minecraft:is_mountain"]
+			biome_tags = ["forge:is_peak"]
 			#Allow spawns in these biomes regardless of the biome tag settings
 			biome_whitelist = []
 			#Prevent spawns in these biomes regardless of the biome tag settings
@@ -492,7 +492,7 @@
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
 			allowed_blocks = []
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
-			allowed_block_tags = ["minecraft:valid_spawn", "minecraft:leaves", "minecraft:logs"]
+			allowed_block_tags = ["minecraft:animals_spawnable_on", "minecraft:leaves", "minecraft:logs"]
 			#Maximum height for this spawn. -65 to ignore.
 			#Range: -65 ~ 256
 			height_max = -65
@@ -554,7 +554,7 @@
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
 			allowed_blocks = []
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
-			allowed_block_tags = ["minecraft:valid_spawn", "minecraft:sand"]
+			allowed_block_tags = ["minecraft:animals_spawnable_on", "minecraft:sand"]
 			#Maximum height for this spawn. -65 to ignore.
 			#Range: -65 ~ 256
 			height_max = -65
@@ -598,13 +598,13 @@
 		[mobs.naga.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 13
+			spawn_rate = 20
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
-			min_group_size = 2
+			min_group_size = 1
 			#Maximum number of mobs that appear in a spawn group
 			#Range: > 1
-			max_group_size = 3
+			max_group_size = 2
 			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
 			#Range: 0.0 ~ 1.0
 			extra_rarity = 1.0
@@ -613,15 +613,15 @@
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
 			allowed_blocks = []
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
-			allowed_block_tags = []
+			allowed_block_tags = ["minecraft:animals_spawnable_on", "minecraft:base_stone_overworld"]
 			#Maximum height for this spawn. -65 to ignore.
 			#Range: -65 ~ 256
 			height_max = -65
 			#Minimum height for this spawn. -65 to ignore.
 			#Range: -65 ~ 256
-			height_min = 70
+			height_min = 68
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
-			needs_darkness = false
+			needs_darkness = true
 			#Set to true to only spawn mob if it can see the sky.
 			needs_see_sky = true
 			#Set to true to only spawn mob if it can't see the sky.
@@ -672,7 +672,7 @@
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
 			allowed_blocks = []
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
-			allowed_block_tags = ["minecraft:valid_spawn", "minecraft:leaves", "minecraft:logs"]
+			allowed_block_tags = ["minecraft:animals_spawnable_on", "minecraft:leaves", "minecraft:logs"]
 			#Maximum height for this spawn. -65 to ignore.
 			#Range: -65 ~ 256
 			height_max = -65

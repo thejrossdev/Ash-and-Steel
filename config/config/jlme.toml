@@ -44,7 +44,7 @@
 	#Max level of enchantment
 	"Max Level" = 5
 	#Percentual amount of health per level
-	Health = 4.0
+	Health = 0.1
 
 [Purge]
 	#Activates or disables enchantment
@@ -110,7 +110,7 @@
 	#Max level of enchantment
 	"Max Level" = 3
 	#Percentual increase in experience per level
-	"Percentual increase" = 0.5
+	"Percentual increase" = 0.3
 	#Percentual increase in experience per level for bossess
 	"Percentual boss increase" = 0.15
 	#Amount of original XP after the enchantment considers a mob a Boss
@@ -132,6 +132,64 @@
 	#Should enchantment be findable in loot
 	Findable = false
 
+["Advanced Blast Protection"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 4
+	#Should enchantment be findable in loot
+	Findable = false
+
+["Advanced Projectile Protection"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 4
+	#Should enchantment be findable in loot
+	Findable = false
+
+["Advanced Fire Protection"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 4
+	#Should enchantment be findable in loot
+	Findable = false
+
+["Advanced Feather Falling"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 4
+
+["Advanced Efficiency"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 5
+	#Should enchantment be findable in loot
+	Findable = true
+
+["Advanced Lure"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 3
+
+["Advanced Luck of the Sea"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 2
+
+["Advanced Fortune"]
+	#Activates or disables enchantment
+	Active = true
+	#Max level of enchantment
+	"Max Level" = 3
+	#Should enchantment be findable in loot
+	Findable = false
+
 ["Advanced Sharpness"]
 	#Activates or disables enchantment
 	Active = true
@@ -150,13 +208,13 @@
 	#Activates or disables enchantment
 	Active = true
 	#Chance of ignoring iframes
-	Chance = 0.4
+	Chance = 0.1
 
 [Range]
 	#Activates or disables enchantment
 	Active = true
 	#Multiplier Speed for arrows, below 1 will cause arrows to be slower
-	Boost = 2.0
+	Boost = 1.25
 
 ["Advanced Power"]
 	#Activates or disables enchantment
@@ -221,20 +279,20 @@
 	Active = true
 	#Max level of enchantment
 	"Max Level" = 4
-	#Percentage of damage that ignores armor per level
-	Percentage = 0.25
 	#Base percentage of damage that ignores armor
 	Base = 0.15
+	#Percentage of damage that ignores armor per level
+	Percentage = 0.15
 
 ["Magic Piercing"]
 	#Activates or disables enchantment
 	Active = true
 	#Max level of enchantment
 	"Max Level" = 4
-	#Percentage of damage that ignores enchantments per level
-	Percentage = 0.25
 	#Base percentage of damage that ignores armor
 	Base = 0.15
+	#Percentage of damage that ignores enchantments per level
+	Percentage = 0.15
 
 ["Critical Strike"]
 	#Activates or disables enchantment
@@ -254,9 +312,9 @@
 	#Max level of enchantment
 	"Max Level" = 4
 	#Percentage of damage per level
-	"Level Damage Increase" = 0.005
+	"Level Damage Increase" = 0.01
 	#Base percentage damage
-	"Base Damage Increase" = 0.0
+	"Base Damage Increase" = 0.02
 	#Max damage bonus possible
 	"Max damage" = 10.0
 
@@ -278,65 +336,7 @@
 	#Max level of enchantment
 	"Max Level" = 5
 	#Max amount of absorption per level
-	Absorption = 4.0
-
-["Advanced Blast Protection"]
-	#Activates or disables enchantment
-	Active = true
-	#Max level of enchantment
-	"Max Level" = 4
-	#Should enchantment be findable in loot
-	Findable = false
-
-["Advanced Projectile Protection"]
-	#Activates or disables enchantment
-	Active = true
-	#Max level of enchantment
-	"Max Level" = 4
-	#Should enchantment be findable in loot
-	Findable = false
-
-["Advanced Fire Protection"]
-	#Activates or disables enchantment
-	Active = true
-	#Max level of enchantment
-	"Max Level" = 4
-	#Should enchantment be findable in loot
-	Findable = false
-
-["Advanced Feather Falling"]
-	#Activates or disables enchantment
-	Active = true
-	#Max level of enchantment
-	"Max Level" = 4
-
-["Advanced Efficiency"]
-	#Activates or disables enchantment
-	Active = true
-	#Max level of enchantment
-	"Max Level" = 5
-	#Should enchantment be findable in loot
-	Findable = true
-
-["Advanced Lure"]
-	#Activates or disables enchantment
-	Active = true
-	#Max level of enchantment
-	"Max Level" = 3
-
-["Advanced Luck of the Sea"]
-	#Activates or disables enchantment
-	Active = true
-	#Max level of enchantment
-	"Max Level" = 2
-
-["Advanced Fortune"]
-	#Activates or disables enchantment
-	Active = true
-	#Max level of enchantment
-	"Max Level" = 3
-	#Should enchantment be findable in loot
-	Findable = false
+	Absorption = 2.0
 
 [Heating]
 	#Activates or disables enchantment

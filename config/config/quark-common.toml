@@ -619,7 +619,7 @@
 		"Fortune Level" = 2
 		#Allowed values: [0,4]
 		"Harvest Level" = 2
-		"Display Baked Enchantments In Tooltip" = false
+		"Display Baked Enchantments In Tooltip" = true
 		"Italic Tooltip" = true
 		#Enchantments other than Gold's Fortune/Looting to bake into items. Format is "item+enchant@level", such as "minecraft:stick+sharpness@10".
 		"Baked Enchantments" = []
@@ -1593,7 +1593,7 @@
 	[client.greener_grass]
 		"Affect Leaves" = true
 		"Affect Water" = false
-		"Block List" = ["minecraft:large_fern", "minecraft:tall_grass", "minecraft:grass_block", "minecraft:fern", "minecraft:grass", "minecraft:potted_fern", "minecraft:sugar_cane", "environmental:giant_tall_grass", "valhelsia_structures:grass_block"]
+		"Block List" = ["minecraft:large_fern", "minecraft:tall_grass", "minecraft:grass_block", "minecraft:fern", "minecraft:grass", "minecraft:potted_fern", "minecraft:sugar_cane", "environmental:giant_tall_grass", "grassslabs:grass_carpet", "grassslabs:grass_slab", "grassslabs:grass_stairs", "valhelsia_structures:grass_block"]
 		"Leaves List" = ["minecraft:spruce_leaves", "minecraft:birch_leaves", "minecraft:oak_leaves", "minecraft:jungle_leaves", "minecraft:acacia_leaves", "minecraft:dark_oak_leaves", "atmospheric:rosewood_leaves", "atmospheric:morado_leaves", "atmospheric:yucca_leaves", "autumnity:maple_leaves", "environmental:willow_leaves", "environmental:hanging_willow_leaves", "minecraft:vine"]
 
 		[client.greener_grass.color_matrix]
@@ -1611,7 +1611,7 @@
 		"Food Tooltips" = true
 		"Shulker Tooltips" = true
 		"Map Tooltips" = true
-		"Enchanting Tooltips" = false
+		"Enchanting Tooltips" = true
 		"Fuel Time Tooltips" = true
 		"Shulker Box Use Colors" = true
 		"Shulker Box Require Shift" = false
@@ -1889,10 +1889,14 @@
 		"Allow Books" = true
 		#Set this to true to allow treasure enchantments to be rolled as pieces
 		"Allow Treasures" = false
+		#Set this to true to allow undiscoverable enchantments to be rolled as pieces
+		"Allow Undiscoverable Enchantments" = false
 		#Any treasure enchantment IDs here will be able to appear in books in matrix enchanting
 		"Treasure Whitelist" = []
+		#Any undiscoverable enchantment IDs here will be able to appear in matrix enchanting
+		"Undiscoverable Whitelist" = []
 		#Set to false to disable the tooltip for items with pending enchantments
-		"Show Tooltip" = false
+		"Show Tooltip" = true
 		#By default, enchantment rarities are fuzzed a bit to feel better with the new system. Set this to false to override this behaviour.
 		"Normalize Rarity" = true
 		#Matrix Enchanting can be done with water instead of air around the enchanting table. Set this to false to disable this behaviour.
@@ -1917,10 +1921,6 @@
 		"Influence Power" = 0.125
 		#If you set this to false, the vanilla Enchanting Table will no longer automatically convert to the Matrix Enchanting table. You'll have to add a recipe for the Matrix Enchanting Table to make use of this.
 		"Automatically Convert" = true
-		#Set this to true to allow undiscoverable enchantments to be rolled as pieces
-		"Allow Undiscoverable Enchantments" = false
-		#Any undiscoverable enchantment IDs here will be able to appear in matrix enchanting
-		"Undiscoverable Whitelist" = []
 
 	[oddities.pipes]
 		#How long it takes for an item to cross a pipe. Bigger = slower.

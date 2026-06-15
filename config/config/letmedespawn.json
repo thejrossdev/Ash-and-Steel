@@ -1,4 +1,6 @@
 {
-  "mobNames": [],
+  "mobNames": [
+    "corpse:corpse"
+  ],
   "persistenceEnablers": []
 }

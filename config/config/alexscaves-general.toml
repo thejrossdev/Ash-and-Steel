@@ -27,6 +27,9 @@
 	#How many cpu cores big mobs(tremorzilla, atlatitan, grottoceratops etc) should utilize when pathing. Bigger number = less impact on TPS
 	#Range: 1 ~ 100
 	pathfinding_threads = 5
+	#Chance that blocks destroyed by luxtructosaurus attacks drop themselves, if mob griefing is enabled.
+	#Range: 0.0 ~ 1.0
+	luxtructosaurus_block_drop_chance = 0.75
 	#The maximum explosion resistance that a block can have to be destroyed by an atlatitan stomp. Set to zero to disable all atlatitan block breaking.
 	#Range: > 0
 	atlatitan_max_block_explosion_resistance = 10
@@ -40,9 +43,6 @@
 	#How long (in game ticks) between watcher possession attempts.
 	#Range: 20 ~ 24000
 	watcher_possession_cooldown = 300
-	#Chance that blocks destroyed by luxtructosaurus attacks drop themselves, if mob griefing is enabled.
-	#Range: 0.0 ~ 1.0
-	luxtructosaurus_block_drop_chance = 0.75
 
 [block-behavior]
 	#True if players wearing boots can walk on any scarlet neodymium surface.
@@ -81,6 +81,10 @@
 	#Range: > 20
 	darkness_cloak_fly_time = 200
 
+[potion-behavior]
+	#Whether the Sugar Rush changes the tick rate of the game in the area of affected players.
+	sugar_rush_slows_time = true
+
 [vanilla-changes]
 	#percent chance of bastion having a cave tablet for magnetic caves in its loot table:
 	#Range: 0.0 ~ 1.0
@@ -97,6 +101,9 @@
 	#percent chance of mansion having a cave tablet for forlorn hollows in its loot table:
 	#Range: 0.0 ~ 1.0
 	forlorn_tablet_loot_chance = 0.75
+	#percent chance of witch hut chest having a cave tablet for candy cavity in its loot table:
+	#Range: 0.0 ~ 1.0
+	candy_cavity_loot_chance = 0.9
 	#percent chance of abandoned mineshaft chests having a map to a nearby underground mineshaft in their loot table:
 	#Range: 0.0 ~ 1.0
 	cabin_map_loot_chance = 0.15
@@ -104,15 +111,8 @@
 	cartographers_sell_cabin_maps = true
 	#Whether the Wandering Traders can sell maps to Underground Cabins.
 	wandering_traders_sell_cabin_maps = true
-	#Whether the Enchantments added by AC appear in vanilla loot tables.
-	enchantments_in_loot = false
-	#percent chance of witch hut chest having a cave tablet for candy cavity in its loot table:
-	#Range: 0.0 ~ 1.0
-	candy_cavity_loot_chance = 0.9
 	#Whether a loot chest is added to vanilla's witch huts. This is included to provide another place to find candy cavity biome cave tablets.
 	loot_chest_in_witch_huts = true
-
-[potion-behavior]
-	#Whether the Sugar Rush changes the tick rate of the game in the area of affected players.
-	sugar_rush_slows_time = false
+	#Whether the Enchantments added by AC appear in vanilla loot tables.
+	enchantments_in_loot = false
 

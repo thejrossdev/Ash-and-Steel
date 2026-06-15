@@ -6,7 +6,7 @@
   "showFrameTime": false,
   "buildFullVertChunk": false,
   "backgroundSampleVertChunk": false,
-  "sampleStructures": true,
+  "sampleStructures": false,
   "sampleHeightmap": false,
   "sampleIntersections": false,
   "storeNoiseSamples": false,
@@ -17,5 +17,5 @@
   "cacheInNew": false,
   "enableCompression": true,
   "colorMap": "world_preview:inferno",
-  "numThreads": 8
+  "numThreads": 23
 }

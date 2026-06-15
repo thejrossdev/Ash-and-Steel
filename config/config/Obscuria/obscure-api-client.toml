@@ -1,7 +1,7 @@
 
 [General]
 	#Allowed Values: DISPLAY_ALL, DISPLAY_MY, DISPLAY_OTHERS, HIDE
-	"Pet Mode" = "HIDE"
+	"Pet Mode" = "DISPLAY_ALL"
 	#Range: -1024 ~ 1024
 	"Mods Button Offset X" = 0
 	#Range: -1024 ~ 1024

@@ -40,19 +40,19 @@
 	particle_casting_color = 14937088
 	#Decimal value for the color of the grave text <Death Date> [0..16777215|default:2962496]
 	#Range: 0 ~ 16777215
-	text_color_death_date = 16725056
+	text_color_death_date = 2962496
 	#Decimal value for the color of the grave text <R.I.P.> [0..16777215|default:2962496]
 	#Range: 0 ~ 16777215
-	text_color_rip = 16711680
+	text_color_rip = 2962496
 	#Decimal value for the color of the grave text <Owner Name> [0..16777215|default:5991302]
 	#Range: 0 ~ 16777215
-	text_color_owner = 16739327
+	text_color_owner = 5991302
 	#Decimal value of the fog color [0..16777215|default:125656]
 	#Range: 0 ~ 16777215
 	fog_color = 16777215
 	#Fog density around the graves [NONE/LOW/NORMAL/HIGH|default:NORMAL]
 	#Allowed Values: NONE, LOW, NORMAL, HIGH
-	fog_density = "LOW"
+	fog_density = "NORMAL"
 	#Favorite grave
 	#Allowed Values: GRAVE_SIMPLE, GRAVE_NORMAL, GRAVE_CROSS, TOMBSTONE, SUBARAKI_GRAVE, GRAVE_ORIGINAL
 	favorite_grave = "GRAVE_SIMPLE"

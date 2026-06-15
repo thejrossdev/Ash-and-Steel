@@ -5,21 +5,27 @@
         "type": "BIOME_TAG",
         "negate": false,
         "value": "minecraft:is_overworld"
-      },
+      }
+    ],
+    [
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "minecraft:is_ocean"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "forge:is_mushroom"
+      }
+    ],
+    [
       {
         "type": "BIOME_TAG",
         "negate": true,
         "value": "forge:no_default_monsters"
-      },
-      {
-        "type": "BIOME_TAG",
-        "negate": true,
-        "value": "minecraft:is_ocean"
-      },
-      {
-        "type": "BIOME_TAG",
-        "negate": true,
-        "value": "forge:is_mushroom"
       }
     ]
   ]

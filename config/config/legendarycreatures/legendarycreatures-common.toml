@@ -26,6 +26,14 @@
 		#Enables Hound natural spawning in the world
 		"Hound Natural Spawn" = true
 
+	[MobSpawning.scarecrow]
+		#When true, allows the Scarecrow to spawn when a player breaks a block listed in config/legendarycreatures/json/scarecrow-spawn.json
+		"Scarecrow Breaking Block Spawn " = true
+		#When true, killing a mob listed in config/legendarycreatures/json/scarecrow-spawn.json has a chance to spawn a Scarecrow at that location
+		"Scarecrow Killing Entity Spawn " = true
+		#Enables Scarecrow natural spawning in the world
+		"Scarecrow Natural Spawn" = true
+
 	[MobSpawning.scorpion]
 		#When true, allows the Scorpion to spawn when a player breaks a block listed in config/legendarycreatures/json/scorpion-spawn.json
 		"Scorpion Breaking Block Spawn " = true
@@ -47,27 +55,27 @@
 		"Wisp Breaking Block Spawn " = true
 		#When true, killing a mob listed in config/legendarycreatures/json/wisp-spawn.json has a chance to spawn a Wisp at that location
 		"Wisp Killing Entity Spawn " = true
-		"Wisp Purse Xp Reward Range " = [30, 30]
 		#Enables Wisp natural spawning in the world
 		"Wisp Natural Spawn" = true
+		"Wisp Purse Xp Reward Range " = [30, 30]
 
 	[MobSpawning.nether_wisp]
 		#When true, allows the Nether Wisp to spawn when a player breaks a block listed in config/legendarycreatures/json/nether_wisp-spawn.json
 		"Nether Wisp Breaking Block Spawn " = true
 		#When true, killing a mob listed in config/legendarycreatures/json/nether_wisp-spawn.json has a chance to spawn a Nether Wisp at that location
 		"Nether Wisp Killing Entity Spawn " = true
-		"Nether Wisp Purse Xp Reward Range " = [80, 80]
 		#Enables Nether Wisp natural spawning in the world
 		"Nether Wisp Natural Spawn" = true
+		"Nether Wisp Purse Xp Reward Range " = [80, 80]
 
 	[MobSpawning.ender_wisp]
 		#When true, allows the Ender Wisp to spawn when a player breaks a block listed in config/legendarycreatures/json/ender_wisp-spawn.json
 		"Ender Wisp Breaking Block Spawn " = true
 		#When true, killing a mob listed in config/legendarycreatures/json/ender_wisp-spawn.json has a chance to spawn an Ender Wisp at that location
 		"Ender Wisp Killing Entity Spawn " = true
-		"Ender Wisp Purse Xp Reward Range " = [240, 240]
 		#Enables Ender Wisp natural spawning in the world
 		"Ender Wisp Natural Spawn" = true
+		"Ender Wisp Purse Xp Reward Range " = [240, 240]
 
 	[MobSpawning.corpse_eater]
 		#When true, allows the Corpse Eater to spawn when a player breaks a block listed in config/legendarycreatures/json/corpse_eater-spawn.json
@@ -92,14 +100,6 @@
 		"Bullfrog Killing Entity Spawn " = true
 		#Enables Bullfrog natural spawning in the world
 		"Bullfrog Natural Spawn" = true
-
-	[MobSpawning.scarecrow]
-		#When true, allows the Scarecrow to spawn when a player breaks a block listed in config/legendarycreatures/json/scarecrow-spawn.json
-		"Scarecrow Breaking Block Spawn " = true
-		#When true, killing a mob listed in config/legendarycreatures/json/scarecrow-spawn.json has a chance to spawn a Scarecrow at that location
-		"Scarecrow Killing Entity Spawn " = true
-		#Enables Scarecrow natural spawning in the world
-		"Scarecrow Natural Spawn" = true
 
 	# WARNING: Disabling an insect that is paired with a hostile mob will give that hostile mob a 100% chance of filling spawn slots
 	[MobSpawning.insects]

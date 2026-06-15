@@ -33,7 +33,7 @@
 		#Range: 0.0 ~ 10.0
 		knockbackResistance = 0.0
 		#Range: 1.0 ~ 1000.0
-		attackDamage = 6.0
+		attackDamage = 5.0
 		#Range: 0.0 ~ 10.0
 		attackKnockback = 1.0
 		#Range: 1.0 ~ 256.0

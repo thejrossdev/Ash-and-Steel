@@ -30,7 +30,7 @@ bambooLight = true
 [rendering]
 [rendering.cro]
 ## Chest_rendering_optimization
-chest_rendering_optimization = true
+chest_rendering_optimization = false
 
 
 [rendering.fastBlit]
@@ -74,7 +74,7 @@ entityBlacklist = ["minecraft:player", "minecraft:villager"]
 enableLeafCulling = true
 
 ## Hide Inner Leaves
-hideInnerLeaves = true
+hideInnerLeaves = false
 
 ## Enable Face Occlusion Culling
 enableFaceOcclusionCulling = true
@@ -105,7 +105,7 @@ enabled = false
 position = "TOP_LEFT"
 
 ## Display Mode
-displayMode = "ALL"
+displayMode = "CURRENT_ONLY"
 
 ## Shadow
 shadow = true
@@ -123,7 +123,7 @@ showUnit = true
 enableParticleLimit = true
 
 ## Max Particles
-maxParticles = 6000
+maxParticles = 16384
 
 
 [network]

@@ -10,15 +10,15 @@
 	keepSkills = true
 	hasFallAnimation = true
 	disapleEntityUI = false
+	canSwitchPlayerMode = true
 	stiffComboAttacks = true
 	noMobsInBossfight = true
-	#Range: 0 ~ 100
-	weightPenalty = 100
-	epicDrop = false
-	canSwitchPlayerMode = true
 	#0 = vanilla, 1 = epicfight
 	#Range: 0 ~ 1
 	initialMode = 1
+	#Range: 0 ~ 100
+	weightPenalty = 100
+	epicDrop = false
 	#Range: > 0
 	skillReplaceCooldown = 6000
 	allow_vanilla_melee = true

@@ -478,7 +478,7 @@
     B:EnigmaticAmuletSeededColorGen=false
 
     # Whether or not Enigmatic Amulet should be summoning Extradimensional Vessel on owner's death. [default: true, synchronized: yes]
-    B:EnigmaticAmuletVesselEnabled=false
+    B:EnigmaticAmuletVesselEnabled=true
 
     # Active ability cooldown for Heart of Creation. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 3, synchronized: yes]
     I:EnigmaticItemCooldown=3
@@ -697,10 +697,10 @@
     D:TheTwistAttackSpeed=-1.8
 
     # Attack damage bonus of The Twist against players and bossess. [range: 0 ~ 32768, default: 300, synchronized: yes]
-    I:TheTwistBossDamageBonus=200
+    I:TheTwistBossDamageBonus=300
 
     # Knockback bonus of The Twist. For Phantoms, this value is multiplied by 1.5. [range: 0 ~ 32768, default: 300, synchronized: yes]
-    I:TheTwistKnockbackPowerBonus=200
+    I:TheTwistKnockbackPowerBonus=300
 
     # Base damage dealt by Darkness every half a second, when it devours a creature in proximity of bearer of the pearl. [range: 0.0 ~ 1000.0, default: 4.0, synchronized: yes]
     D:VoidPearlBaseDarknessDamage=4.0
@@ -743,7 +743,7 @@
      >
 
     # Maximum amount of Soul Crystals a player can lose before they won't drop anymore. If set to 10 - player can loose all of them, and doing so will result in permadeath. Each crystal lost subtracts 10% of from their maximum possible health value. [range: 1 ~ 10, default: 9, synchronized: no]
-    I:MaxSoulCrystalLoss=5
+    I:MaxSoulCrystalLoss=9
 
     # Soul Crystals mechanic mode. 0 - disabled unless enforced by specific in-game items; 1 - also enabled when keepInventory is true; 2 - always enabled. [range: 0 ~ 2, default: 0, synchronized: no]
     I:SoulCrystalsMode=0
@@ -759,7 +759,7 @@
 
 "Save the Bees" {
     # If true, bees will never affected by the Second Curse of Ring of the Seven Curses. [default: false, synchronized: yes]
-    B:CursedRingDontTouchMyBees=true
+    B:CursedRingDontTouchMyBees=false
 }
 
 

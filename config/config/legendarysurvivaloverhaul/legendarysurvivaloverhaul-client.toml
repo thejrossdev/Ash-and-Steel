@@ -22,6 +22,12 @@
 		"Temperature Display X Offset" = 0
 		#Range: -10000 ~ 10000
 		"Temperature Display Y Offset" = 0
+		# The X and Y offset of the body temperature, shown when thermometer is equipped as a bauble (needs the curios mod).
+		# Set both to 0 for no offset.
+		#Range: -10000 ~ 10000
+		"Body Temperature Display X Offset" = 0
+		#Range: -10000 ~ 10000
+		"Body Temperature Display Y Offset" = 0
 		# If enabled, player will see a foggy effect when the heat is high.
 		"Heat Temperature Overlay" = true
 		# If enabled, player will see a frost effect when the cold is low.
@@ -31,12 +37,6 @@
 		# Temperature threshold below which a cold breath effect is rendered by the player. -1000 disable the feature.
 		#Range: -1000.0 ~ 1000.0
 		"Cold Breath Temperature Threshold" = 10.0
-		# The X and Y offset of the body temperature, shown when thermometer is equipped as a bauble (needs the curios mod).
-		# Set both to 0 for no offset.
-		#Range: -10000 ~ 10000
-		"Body Temperature Display X Offset" = 0
-		#Range: -10000 ~ 10000
-		"Body Temperature Display Y Offset" = 0
 		# If enabled, render the temperature values in Fahrenheit.
 		"Temperature In Fahrenheit" = false
 
@@ -61,6 +61,12 @@
 	"Body Damage Indicator Limb Health Threshold" = 1.0
 
 [season-cards]
+	# The X and Y offset of the season cards. Set both to 0 for no offset.
+	# By default, render first top quarter vertically and centered horizontally.
+	#Range: -10000 ~ 10000
+	"Season Cards Display X Offset" = 0
+	#Range: -10000 ~ 10000
+	"Season Cards Display Y Offset" = 0
 	# The delay before rendering the season card at first player spawn or player dimension change.
 	#Range: > 0
 	"Season Cards Delay In Ticks" = 80
@@ -73,12 +79,6 @@
 	# The fade out time in ticks that the season card will disappear.
 	#Range: > 0
 	"Season Cards Fade Out In Ticks" = 20
-	# The X and Y offset of the season cards. Set both to 0 for no offset.
-	# By default, render first top quarter vertically and centered horizontally.
-	#Range: -10000 ~ 10000
-	"Season Cards Display X Offset" = 0
-	#Range: -10000 ~ 10000
-	"Season Cards Display Y Offset" = 0
 
 [thirst]
 	# Whether the Hydration Saturation is displayed or not.
@@ -95,6 +95,8 @@
 	[thirst.hydration-bar]
 		# If enabled, the hydration bar will be displayed.
 		"Show Hydration Bar" = true
+		# If enabled, the Hydration Exhaustion will be displayed (grey bar behind the hydration bar).
+		"Render the hydration exhaustion" = true
 		# If enabled, a preview on hydration bar will be displayed if player holds a drink item.
 		"Show Drink Preview" = true
 		# How much the hydration bar is moved to the right.
@@ -103,8 +105,6 @@
 		# How much the hydration bar is moved to the bottom.
 		#Range: -10000 ~ 10000
 		"Hydration Bar Offset Y" = 0
-		# If enabled, the Hydration Exhaustion will be displayed (grey bar behind the hydration bar).
-		"Render the hydration exhaustion" = true
 
 [health-overhaul]
 	# If enabled, will try to append the broken and shield hearts at the end of the Health Bar.

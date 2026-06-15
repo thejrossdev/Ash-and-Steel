@@ -1,4 +1,8 @@
 
+[animation_speed]
+	#Enable maximum animation speed limit
+	enable_animation_playspeed_lock = true
+
 [yamato_catcher]
 	#Entities that CANNOT be caught by Yamato Catcher (format: modid:entity_id)
 	#These entities will be ignored regardless of knockback resistance
@@ -29,6 +33,26 @@
 	#Range: 1 ~ 1200
 	yamatoParryStunCooldown = 60
 
+[animation_yamato]
+	#Entities that won't play Yamato's stun animations (format: modid:entity_id)
+	#This is a SERVER-SIDE setting
+	#Example: ["minecraft:wither", "minecraft:ender_dragon"]
+	animationBlacklist = ["minecraft:wither", "minecraft:ender_dragon"]
+	#Entities that can play Yamato's stun animations (format: modid:entity_id)
+	#This is a SERVER-SIDE setting
+	#Example: ["minecraft:player", "minecraft:zombie", "minecraft:skeleton"]
+	animationWhitelist = ["wom:evil_skeleton", "wom:hollow", "wom:saulomonk", "wom:lycanth"]
+
+[animation_murasama]
+	#Entities that won't play HfBlade's stun animations (format: modid:entity_id)
+	#This is a SERVER-SIDE setting
+	#Example: ["minecraft:wither", "minecraft:ender_dragon"]
+	animationBlacklist = ["minecraft:wither", "minecraft:ender_dragon"]
+	#Entities that can play HfBlade's stun animations (format: modid:entity_id)
+	#This is a SERVER-SIDE setting
+	#Example: ["minecraft:player", "minecraft:zombie", "minecraft:skeleton"]
+	animationWhitelist = ["wom:evil_skeleton", "wom:hollow", "wom:saulomonk", "wom:lycanth"]
+
 [yamato_reward]
 	#Enable/disable the skill book reward for Yamato JudgementCut-End
 	#When enabled, players will receive JudgementCut-End skill book after reaching the kill threshold
@@ -41,6 +65,12 @@
 	#Default: 100 kills
 	#Range: 0 ~ 10000
 	yamatoRewardKillThreshold = 100
+
+[murasama]
+	#Enable/disable the compatmode for HfBlade's double tap Sprint conditon
+	#When enabled, HfBlade's double tap Sprint conditon will always be true(not require to double tap Sprint
+	#Default: false (disabled)
+	murasamaDoubleTapSprintConditoCompat = false
 
 [yamato_parry_timeslow]
 	#Yamato parry timeslowdown
@@ -59,7 +89,7 @@
 	#This is a SERVER-SIDE setting
 	#Default: 6 ticks
 	#Range: 1 ~ 100
-	yamatoParryTimeSlowDuration = 8
+	yamatoParryTimeSlowDuration = 6
 	#Strength level of time slowdown effect
 	#1 = 1% speed, 2 = 2% speed, 3 = 3% speed, 4 = 4% speed, 5 = 5% speed
 	#This is a SERVER-SIDE setting
@@ -118,33 +148,32 @@
 	#Range: 0.01 ~ 1.0
 	judgementCutEndHealthPercentage = 0.4
 
-[animation_speed]
-	#Enable maximum animation speed limit
-	enable_animation_playspeed_lock = true
-
-[animation_yamato]
-	#Entities that won't play Yamato's stun animations (format: modid:entity_id)
-	#This is a SERVER-SIDE setting
-	#Example: ["minecraft:wither", "minecraft:ender_dragon"]
-	animationBlacklist = ["minecraft:wither", "minecraft:ender_dragon"]
-	#Entities that can play Yamato's stun animations (format: modid:entity_id)
-	#This is a SERVER-SIDE setting
-	#Example: ["minecraft:player", "minecraft:zombie", "minecraft:skeleton"]
-	animationWhitelist = ["wom:evil_skeleton", "wom:hollow", "wom:saulomonk", "wom:lycanth"]
-
-[animation_murasama]
-	#Entities that won't play HfBlade's stun animations (format: modid:entity_id)
-	#This is a SERVER-SIDE setting
-	#Example: ["minecraft:wither", "minecraft:ender_dragon"]
-	animationBlacklist = ["minecraft:wither", "minecraft:ender_dragon"]
-	#Entities that can play HfBlade's stun animations (format: modid:entity_id)
-	#This is a SERVER-SIDE setting
-	#Example: ["minecraft:player", "minecraft:zombie", "minecraft:skeleton"]
-	animationWhitelist = ["wom:evil_skeleton", "wom:hollow", "wom:saulomonk", "wom:lycanth"]
-
-[murasama]
-	#Enable/disable the compatmode for HfBlade's double tap Sprint conditon
-	#When enabled, HfBlade's double tap Sprint conditon will always be true(not require to double tap Sprint
-	#Default: false (disabled)
-	murasamaDoubleTapSprintConditoCompat = false
+[heavy_rain_sword]
+	#Enable the ground fracture effect when Heavy Rain swords hit the ground
+	#Disable this if you experience lag during the skill.
+	#Default: true
+	enableFracture = true
+	#Enable particle effects for Heavy Rain swords spawn
+	#Disable this to save rendering performance.
+	#Default: true
+	enableParticlesSpawn = true
+	#Enable particle effects for Heavy Rain swords disappearing
+	#Disable this to save rendering performance.
+	#Default: true
+	enableParticlesDisappear = true
+	#Enable particle effects for Heavy Rain swords hitting the ground
+	#Disable this to save rendering performance.
+	#Default: true
+	enableParticlesGround = true
+	#Scale mode for the Heavy Rain sword array.
+	#DEFAULT: 28 swords, 5 rings (High Performance Impact)
+	#MEDIUM: 14 swords, 4 rings (Balanced)
+	#LOW: 7 swords, 3 rings (Performance Friendly)
+	#CUSTOM: Uses the custom array settings below
+	#Allowed Values: DEFAULT, MEDIUM, LOW, CUSTOM
+	scaleMode = "DEFAULT"
+	#Custom sword array configuration. Only used if scaleMode is set to CUSTOM.
+	#Format: ["swordCount,radius"] for each ring.
+	#Example: ["1,0.0", "4,1.0", "8,2.0"]
+	customArray = ["2,0.0", "3,0.7", "8,1.5", "8,3.5", "7,4.5"]
 

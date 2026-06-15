@@ -1,5 +1,5 @@
 
 [tlc]
 	#Disable/Enable the stronghold
-	generate_stronghold = true
+	generate_stronghold = false
 

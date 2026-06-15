@@ -34,7 +34,7 @@
 [SpawnRate]
 	#Changed Cleric SpawnRate. [0 ~ 100]
 	#Range: 0 ~ 100
-	"Cleric SpawnRate" = 5
+	"Cleric SpawnRate" = 1
 	#Changed Soulfire Nehemoth SpawnRate. [0 ~ 100]
 	#Range: 0 ~ 100
 	"SoulFire Nehemoth SpawnRate" = 1
@@ -57,7 +57,7 @@
 [spawnRoll]
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	#Range: > 0
-	"Cleric SpawnRoll" = 25
+	"Cleric SpawnRoll" = 85
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	#Range: > 0
 	"Nehemoth SpawnRoll" = 15
@@ -69,6 +69,8 @@
 	"Froglin SpawnRoll" = 8
 
 [Equipment]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Crystallized Dagger Damage" = 5.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Thirst For Blood Damage" = 8.0
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -95,6 +97,4 @@
 	"Sets Plague Doctor Mask Armor Value" = 3
 	#Range: > 1
 	"Sets Plague Doctor Mask Durability" = 8
-	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Crystallized Dagger Damage" = 5.0
 

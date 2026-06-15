@@ -1,6 +1,25 @@
 
 ["Mob Settings"]
 
+	["Mob Settings"."General Settings"]
+		#allow Camera Shake
+		"Allow Camera Shake" = true
+		#allow custom bossbars
+		"Allow Custom Boss Bars" = true
+		#for example when boss heals up after killing all players the boss will go back to previous phase
+		"Allow Boss phase reset" = true
+		#allow bosses healing when out of combat
+		"Allow Bosses Natural Healing" = true
+		#allow boss music
+		"Allow Boss Music" = true
+		#if Boss has no target and is > 15 blocks away from the spawn he will teleport back to the spawn position. That applies to mini bosses too.
+		"Allow Bosses and Mini Bosses teleport back to their spawn Position" = true
+		#Boss Music Volume Multiplier
+		#Range: 0.0 ~ 1000.0
+		"Boss Music Volume Multiplier" = 1.0
+		#Allow Falling Cloud Particles
+		"Allow Falling Cloud Particles" = true
+
 	["Mob Settings"."Chorusling Settings"]
 		#Multiplies damage dealt by Chorusling
 		#Range: 0.0 ~ 1000.0
@@ -34,6 +53,22 @@
 		"Ambusher Health Multiplier" = 1.0
 		#Enables/Disables Projectile Damage For Ambusher
 		"Allow Ambusher Projectile Immunity" = true
+
+	["Mob Settings"."Stratling Settings"]
+		#Multiplies damage dealt by Stratling
+		#Range: 0.0 ~ 1000.0
+		"Stratling Damage Multiplier" = 1.0
+		#Multiplies health of Stratling
+		#Range: 0.0 ~ 1000.0
+		"Stratling Health Multiplier" = 1.0
+
+	["Mob Settings"."Hovering Hurricane Settings"]
+		#Multiplies damage dealt by Hovering Hurricane
+		#Range: 0.0 ~ 1000.0
+		"Hovering Hurricane Damage Multiplier" = 1.0
+		#Multiplies health of Hovering Hurricane
+		#Range: 0.0 ~ 1000.0
+		"Hovering Hurricane Health Multiplier" = 1.0
 
 	["Mob Settings"."Ancient Guardian Settings"]
 		#Multiplies damage dealt by Ancient Guardian
@@ -107,7 +142,7 @@
 		#Range: 0.0 ~ 1000.0
 		"Cloud Golem Health Multiplier" = 1.0
 		#Enables Projectile Damage for Cloud Golem
-		"Allow Cloud Golem Projectile Damage" = true
+		"Allow Cloud Golem Projectile Damage" = false
 		#Cloud Golem loses Consciousness after Laser Attack
 		"Allow Cloud Golem Loses Consciousness" = true
 		#Cloud Golem can Charge once more after missing when he is low on HP
@@ -140,14 +175,14 @@
 		#Multiplies health of Dune Sentinel
 		#Range: 0.0 ~ 1000.0
 		"Dune Sentinel Health Multiplier" = 1.0
+		#Enables/Disables Projectile Immunity for Dune Sentinel
+		"Allow Dune Sentinel Projectile Immunity" = true
 		#Multiplies damage dealt by Bomber
 		#Range: 0.0 ~ 1000.0
 		"Bomber Damage Multiplier" = 1.0
 		#Multiplies health of Bomber
 		#Range: 0.0 ~ 1000.0
 		"Bomber Health Multiplier" = 1.0
-		#Enables/Disables Projectile Immunity for Dune Sentinel
-		"Allow Dune Sentinel Projectile Immunity" = true
 
 	["Mob Settings"."Skeletosaurus Settings"]
 		#Multiplies damage dealt by Skeletosaurus
@@ -195,14 +230,6 @@
 		#Enables/Disables Projectile immunity for Shulker Mimic
 		"Allow Shulker Mimic Projectile Immunity" = true
 
-	["Mob Settings"."Stratling Settings"]
-		#Multiplies damage dealt by Stratling
-		#Range: 0.0 ~ 1000.0
-		"Stratling Damage Multiplier" = 1.0
-		#Multiplies health of Stratling
-		#Range: 0.0 ~ 1000.0
-		"Stratling Health Multiplier" = 1.0
-
 	["Mob Settings"."Tamable Knight Settings"]
 		#Multiplies damage dealt by Knight
 		#Range: 0.0 ~ 100.0
@@ -226,33 +253,6 @@
 		#Multiplies health of Skeloraptor
 		#Range: 0.0 ~ 1000.0
 		"Skeloraptor Health Multiplier" = 1.0
-
-	["Mob Settings"."General Settings"]
-		#allow custom bossbars
-		"Allow Custom Boss Bars" = true
-		#allow boss music
-		"Allow Boss Music" = true
-		#Boss Music Volume Multiplier
-		#Range: 0.0 ~ 1000.0
-		"Boss Music Volume Multiplier" = 1.0
-		#Allow Falling Cloud Particles
-		"Allow Falling Cloud Particles" = true
-		#allow Camera Shake
-		"Allow Camera Shake" = true
-		#for example when boss heals up after killing all players the boss will go back to previous phase
-		"Allow Boss phase reset" = true
-		#allow bosses healing when out of combat
-		"Allow Bosses Natural Healing" = true
-		#if Boss has no target and is > 15 blocks away from the spawn he will teleport back to the spawn position. That applies to mini bosses too.
-		"Allow Bosses and Mini Bosses teleport back to their spawn Position" = true
-
-	["Mob Settings"."Hovering Hurricane Settings"]
-		#Multiplies damage dealt by Hovering Hurricane
-		#Range: 0.0 ~ 1000.0
-		"Hovering Hurricane Damage Multiplier" = 1.0
-		#Multiplies health of Hovering Hurricane
-		#Range: 0.0 ~ 1000.0
-		"Hovering Hurricane Health Multiplier" = 1.0
 
 	["Mob Settings"."Flameborn Guard Settings"]
 		#Multiplies damage dealt by Flameborn Guard

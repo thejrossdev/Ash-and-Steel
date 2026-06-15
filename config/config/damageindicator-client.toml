@@ -3,6 +3,8 @@
 	# arrow that shows where incoming damage came from
 	# Enables the directional damage indicator
 	"Enable Directional Indicator" = true
+	# 0-1 (inclusive)
+	"Directional Indicator Texture" = 0
 	# Red (0-255)
 	"Directional Indicator Red" = 206
 	# Green (0-255)
@@ -13,12 +15,10 @@
 	"Directional Indicator Alpha" = 255
 	# Distance from the center of the screen that the directional damage indicator appears.
 	"Directional Indicator Distance" = 0
-	# Time for damage indicator to show (in ticks)
-	"Indicate Time" = 25
-	# 0-1 (inclusive)
-	"Directional Indicator Texture" = 0
 	# Fade out the damage indicator over time
 	"Enable Fade Out" = true
+	# Time for damage indicator to show (in ticks)
+	"Indicate Time" = 25
 
 ["Damage Text"]
 	# floating text that shows the amount of damage done to an entity
