@@ -98,5 +98,25 @@ optionsof.txt
 optionsshaders.txt
 icon.png
 
+# Credentials and sensitive data
+.credentials.json
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Temporary and cache files
+.cache/
+*.tmp
+*.temp
+*.log
+*.pid
+
+# Local development
+local/
+*.local
+.claude/settings.local.json
+
 # Other
 .continue
+
