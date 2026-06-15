@@ -332,29 +332,29 @@ jobs:
       - name: Preparing
         shell: bash
         run: |
-          set +e
+               set +e
 
-          VERSION=${{ needs.info.outputs.project_version }}
-          LOADER_VERSION=${{ needs.info.outputs.loader_version }}
-          LOADER_TYPE=${{ needs.info.outputs.loader_type }}
-          MINECRAFT_VERSION=${{ needs.info.outputs.mc_version }}
+               VERSION=${{ needs.info.outputs.project_version }}
+               LOADER_VERSION=${{ needs.info.outputs.loader_version }}
+               LOADER_TYPE=${{ needs.info.outputs.loader_type }}
+               MINECRAFT_VERSION=${{ needs.info.outputs.mc_version }}
 
-          sed -i -e "s/DEV/${VERSION}/g" pakku.json
-          sed -i -e "s/DEV/${VERSION}/g" config/mod-director/modpack.json
-          sed -i -e "s/DEV/${VERSION}/g" config/fancymenu/customization/gui_main_menu.txt
-          sed -i -e "s/DEV/${VERSION}/g" .pakku/multimc-overrides/instance.cfg
-          sed -i -e "s/DEV/${VERSION}/g" .pakku/server-overrides/server.properties
+               sed -i -e "s/DEV/${VERSION}/g" pakku.json
+          #          sed -i -e "s/DEV/${VERSION}/g" config/mod-director/modpack.json
+          #          sed -i -e "s/DEV/${VERSION}/g" config/fancymenu/customization/gui_main_menu.txt
+               sed -i -e "s/DEV/${VERSION}/g" .pakku/multimc-overrides/instance.cfg
+               sed -i -e "s/DEV/${VERSION}/g" .pakku/server-overrides/server.properties
 
-          sed -i -e "s/LOADER_VERSION/${LOADER_VERSION}/g" .pakku/multimc-overrides/mmc-pack.json
-          sed -i -e "s/LOADER_VERSION/${LOADER_VERSION}/g" .pakku/server-overrides/forge-auto-install.txt
+               sed -i -e "s/LOADER_VERSION/${LOADER_VERSION}/g" .pakku/multimc-overrides/mmc-pack.json
+               sed -i -e "s/LOADER_VERSION/${LOADER_VERSION}/g" .pakku/server-overrides/forge-auto-install.txt
 
-          sed -i -e "s/LOADER_TYPE/${LOADER_TYPE}/g" .pakku/multimc-overrides/mmc-pack.json
-          sed -i -e "s/LOADER_TYPE/${LOADER_TYPE}/g" .pakku/server-overrides/forge-auto-install.txt
+               sed -i -e "s/LOADER_TYPE/${LOADER_TYPE}/g" .pakku/multimc-overrides/mmc-pack.json
+               sed -i -e "s/LOADER_TYPE/${LOADER_TYPE}/g" .pakku/server-overrides/forge-auto-install.txt
 
-          sed -i -e "s/MINECRAFT_VERSION/${MINECRAFT_VERSION}/g" .pakku/multimc-overrides/mmc-pack.json
-          sed -i -e "s/MINECRAFT_VERSION/${MINECRAFT_VERSION}/g" .pakku/server-overrides/forge-auto-install.txt
+               sed -i -e "s/MINECRAFT_VERSION/${MINECRAFT_VERSION}/g" .pakku/multimc-overrides/mmc-pack.json
+               sed -i -e "s/MINECRAFT_VERSION/${MINECRAFT_VERSION}/g" .pakku/server-overrides/forge-auto-install.txt
 
-          cp -vf ./config/fancymenu/assets/icons/icon32x32.png .pakku/server-overrides/server-icon.png
+               cp -vf ./config/fancymenu/assets/icons/icon32x32.png .pakku/server-overrides/server-icon.png
 
       - name: Cache Pakku
         uses: actions/cache@v5
