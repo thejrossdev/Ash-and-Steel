@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - dev
-      - main
+      - master
     paths:
       - '.pakku'
       - 'config'
@@ -19,7 +19,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  DEV_ENVIRONMENT: ${{ github.ref_name != 'main' }}
+  DEV_ENVIRONMENT: ${{ github.ref_name != 'master' }}
 
 jobs:
   info:
@@ -290,7 +290,7 @@ jobs:
 
       - name: Create Pull Request if tag not found
         if: ${{ steps.check_existing_pr.outputs.exists == 'false' }}
-        uses: devops-infra/action-pull-request@v1.0.2
+        uses: devops-infra/action-pull-request@v1.3.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           source_branch: dev
