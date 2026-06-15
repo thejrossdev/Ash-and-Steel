@@ -11,6 +11,7 @@ build/
 **/*.mrpack
 **/*.code-workspace
 **/*.zip
+!config/openloader/**/*.zip
 
 # Configs
 config/jei/world/
