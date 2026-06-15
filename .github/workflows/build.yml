@@ -265,7 +265,7 @@ jobs:
                 repo: context.repo.repo,
                 state: 'open',
                 head: `${context.repo.owner}:dev`,
-                base: 'main'
+                base: 'master'
               });
 
               core.setOutput('exists', prs.length > 0);
@@ -304,7 +304,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           source_branch: dev
-          target_branch: main
+          target_branch: master
           milestone: ${{ steps.check_milestone.outputs.result == 'true' && steps.changelog.outputs.version || '' }}
           ignore_users: "dependabot"
           draft: true
