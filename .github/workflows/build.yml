@@ -70,7 +70,7 @@ jobs:
         id: latest_tag
         shell: bash
         run: |
-          tag=$(git describe --tags --abbrev=0 origin/main)
+          tag=$(git describe --tags --abbrev=0 origin/master)
           if [ -z "$tag" ]; then
             echo "❌ Latest tag not found" && exit 1
           else
