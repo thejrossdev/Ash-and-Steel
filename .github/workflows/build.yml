@@ -13,6 +13,16 @@ on:
       - 'CHANGELOG.md'
       - 'pakku-lock.json'
       - 'pakku.json'
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch for build'
+        required: true
+        default: 'dev'
+        type: choice
+        options:
+          - dev
+          - master
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
