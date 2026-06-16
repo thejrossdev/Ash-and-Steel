@@ -14,7 +14,7 @@ function registerArsRecipes(e) {
 		e.remove({ output: recipe });
 	});
 
-	e.shaped(Item.of(ns.ars("apprentice_spell_book"), 1), ["ABD", "DDC", "CEE"], {
+	e.shaped(ns.ars("apprentice_spell_book", 1), ["ABD", "DDC", "CEE"], {
 		A: ns.ars("novice_spell_book"),
 		B: ns.mc("obsidian"),
 		C: ns.ars("magebloom_fiber"),

@@ -5,7 +5,7 @@
 function registerLOHRecipes(e) {
 	let ns = global.Namespace;
 
-	e.shaped(Item.of(ns.loh("bandage"), 1), [" BA", "BAB", "AB "], {
+	e.shaped(ns.loh("bandage", 1), [" BA", "BAB", "AB "], {
 		A: ns.loh("plaster"),
 		B: ns.mc("gold_nugget"),
 	});

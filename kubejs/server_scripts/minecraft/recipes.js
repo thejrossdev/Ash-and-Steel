@@ -10,7 +10,7 @@ function registerMinecraftRecipes(e) {
 		e.remove({ output: recipe });
 	});
 
-	e.shaped(Item.of(ns.mc("enchanting_table"), 1), [" E ", "DCD", "ABA"], {
+	e.shaped(ns.mc("enchanting_table", 1), [" E ", "DCD", "ABA"], {
 		A: ns.mc("obsidian"),
 		B: ns.mc("crying_obsidian"),
 		C: ns.mc("netherite_ingot"),
@@ -18,12 +18,12 @@ function registerMinecraftRecipes(e) {
 		E: ns.mc("enchanted_book"),
 	});
 
-	e.shaped(Item.of(ns.mc("netherite_ingot"), 1), ["AAA", "ABB", "BBB"], {
+	e.shaped(ns.mc("netherite_ingot", 1), ["AAA", "ABB", "BBB"], {
 		A: ns.arcana("deorum_ingot"),
 		B: ns.mc("netherite_scrap"),
 	});
 
-	e.shaped(Item.of(ns.mc("chest"), 1), ["AAA", "A A", "AAA"], {
+	e.shaped(ns.mc("chest", 1), ["AAA", "A A", "AAA"], {
 		A: ns.ars("archwood_planks"),
 	});
 }
