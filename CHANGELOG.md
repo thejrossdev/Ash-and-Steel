@@ -13,7 +13,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add KubeJs startup_scripts
 - Add KubeJs client_scripts
 - Create Namespace object for mods namespaces
-- Sync datapacks
+- Sync datapacks. Add datapacks from previous modpack
+- Add complementary shaders
+- Sync resource packs. Add resource packs from previous modpack
 
 ### Bug fixes
 
