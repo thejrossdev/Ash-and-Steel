@@ -508,6 +508,124 @@
             ]
         },
         {
+            "pakku_id": "Kp18EtT787Ay2jmU",
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "alternative-rain-sounds",
+                "modrinth": "alternative-rain-sounds"
+            },
+            "name": {
+                "curseforge": "Alternative Rain Sounds",
+                "modrinth": "Alternative Rain Sounds"
+            },
+            "id": {
+                "curseforge": "858484",
+                "modrinth": "IjeNkkG5"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Alternative Rain Sounds 1.21.9-1.21.11.zip",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1",
+                        "23w31a",
+                        "23w32a",
+                        "23w33a",
+                        "23w35a",
+                        "1.20.2-pre1",
+                        "1.20.2",
+                        "23w42a",
+                        "23w43a",
+                        "23w43b",
+                        "23w44a",
+                        "23w45a",
+                        "23w46a",
+                        "1.20.3",
+                        "1.20.4",
+                        "24w03a",
+                        "24w03b",
+                        "24w04a",
+                        "24w05a",
+                        "24w05b",
+                        "24w06a",
+                        "24w07a",
+                        "24w09a",
+                        "24w10a",
+                        "24w11a",
+                        "24w12a",
+                        "24w13a",
+                        "24w14potato",
+                        "24w14a",
+                        "1.20.5-pre1",
+                        "1.20.5-pre2",
+                        "1.20.5-pre3",
+                        "1.20.5",
+                        "1.20.6",
+                        "24w18a",
+                        "24w19a",
+                        "24w19b",
+                        "24w20a",
+                        "1.21",
+                        "1.21.1",
+                        "24w33a",
+                        "24w34a",
+                        "24w35a",
+                        "24w36a",
+                        "24w37a",
+                        "24w38a",
+                        "24w39a",
+                        "24w40a",
+                        "1.21.2-pre1",
+                        "1.21.2-pre2",
+                        "1.21.2",
+                        "1.21.3",
+                        "24w44a",
+                        "24w45a",
+                        "24w46a",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/IjeNkkG5/versions/6NhQYOHT/Alternative Rain Sounds 1.21.9-1.21.11.zip",
+                    "id": "6NhQYOHT",
+                    "parent_id": "IjeNkkG5",
+                    "hashes": {
+                        "sha512": "fc84ac9a7aed476094397e51683791f0ed3c7afeea216b2dc5fffbf6bb4b6e53be3cd9645794655f0e20a51ce4e01ae9b9b6ebbed78b5d227c770f6cc79c3281",
+                        "sha1": "fd88d1ebd9062566523f75eacd62019edc170fab"
+                    },
+                    "required_dependencies": [],
+                    "size": 583637,
+                    "date_published": "2026-02-15T16:17:23.427599Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "Alternative Rain Sounds 1.21.9-1.21.11.zip",
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7629/415/Alternative Rain Sounds 1.21.9-1.21.11.zip",
+                    "id": "7629415",
+                    "parent_id": "858484",
+                    "hashes": {
+                        "sha1": "fd88d1ebd9062566523f75eacd62019edc170fab",
+                        "md5": "c4a97db0fa9986653ea01bd7fe8c24f6"
+                    },
+                    "required_dependencies": [],
+                    "size": 583637,
+                    "date_published": "2026-02-15T16:15:32.330Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ZAsnzd5VHlxuq1Yh",
             "type": "MOD",
             "slug": {
@@ -2122,6 +2240,153 @@
             ]
         },
         {
+            "pakku_id": "EIiHDQaWVfE79vqz",
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "beyond-ascension-epic-fight-mob-compat"
+            },
+            "name": {
+                "curseforge": "Beyond Ascension + Epic Fight MOB compat"
+            },
+            "id": {
+                "curseforge": "1259553"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "BA_Mob_Patch.zip",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7810/611/BA_Mob_Patch.zip",
+                    "id": "7810611",
+                    "parent_id": "1259553",
+                    "hashes": {
+                        "sha1": "5926479d8aa277008e858e41234eeaa4a28a3621",
+                        "md5": "568864f8a3e1f6deed1abde3f26dbec5"
+                    },
+                    "required_dependencies": [],
+                    "size": 465712,
+                    "date_published": "2026-03-25T11:42:04.830Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "h99cFzFkD5PyvoP3",
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "beyond-epic-fight-weapon-compat"
+            },
+            "name": {
+                "curseforge": "Beyond Epic Fight WEAPON compat"
+            },
+            "id": {
+                "curseforge": "1205199"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "BEF_Weapon_Patch.zip",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8253/463/BEF_Weapon_Patch.zip",
+                    "id": "8253463",
+                    "parent_id": "1205199",
+                    "hashes": {
+                        "sha1": "eb435ee0b49b3940c71393c642ad1d76fbad4a06",
+                        "md5": "38a7dc55c27f90d82613685d99570dd1"
+                    },
+                    "required_dependencies": [],
+                    "size": 632615,
+                    "date_published": "2026-06-15T16:49:18.200Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "GN1y26cuLLzj7J4l",
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "blinking-ender-eyes",
+                "modrinth": "blinking-ender-eyes"
+            },
+            "name": {
+                "curseforge": "Blinking Ender Eyes",
+                "modrinth": "Blinking Ender Eyes"
+            },
+            "id": {
+                "curseforge": "322713",
+                "modrinth": "6GgEjSHS"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "EnderEyes_26.1_v3.1.zip",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11",
+                        "26.1"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/6GgEjSHS/versions/l1gUhnhx/EnderEyes_26.1_v3.1.zip",
+                    "id": "l1gUhnhx",
+                    "parent_id": "6GgEjSHS",
+                    "hashes": {
+                        "sha512": "f78094580c26e87d504330c401c29ebf94609949b375aa2594094d54fc51285bab7333f9c40748147025999caf4d07a94f063a6a6a0b88d9587266518ef24940",
+                        "sha1": "d3ee26526efed0682538c7eb669fe4b230cdfa5d"
+                    },
+                    "required_dependencies": [],
+                    "size": 251257,
+                    "date_published": "2026-03-25T21:21:13.026972Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "EnderEyes_26.1_v3.1.zip",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.5",
+                        "1.20.1",
+                        "1.20.6",
+                        "1.20.4",
+                        "1.20.3"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7813/544/EnderEyes_26.1_v3.1.zip",
+                    "id": "7813544",
+                    "parent_id": "322713",
+                    "hashes": {
+                        "sha1": "d3ee26526efed0682538c7eb669fe4b230cdfa5d",
+                        "md5": "90b6ae8eac19c95065249b2747934250"
+                    },
+                    "required_dependencies": [],
+                    "size": 251257,
+                    "date_published": "2026-03-25T21:20:11.207Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "abtm6mkx7bwyg88A",
             "type": "MOD",
             "slug": {
@@ -2289,6 +2554,82 @@
                     "required_dependencies": [],
                     "size": 5988,
                     "date_published": "2024-05-11T19:20:08.653Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "JXGTvZugyfw3E8n9",
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "boss-refreshed",
+                "modrinth": "boss-refreshed"
+            },
+            "name": {
+                "curseforge": "Boss Refreshed",
+                "modrinth": "Boss Refreshed"
+            },
+            "id": {
+                "curseforge": "882133",
+                "modrinth": "ZbZNRA1g"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "boss-refreshed-v2-1.19-1.21.zip",
+                    "mc_versions": [
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ZbZNRA1g/versions/YItTWWdj/boss-refreshed-v2-1.19-1.21.zip",
+                    "id": "YItTWWdj",
+                    "parent_id": "ZbZNRA1g",
+                    "hashes": {
+                        "sha512": "db53c34c445e50e4d2e9ebcc6926beb30e23e2a97bbdcabc405690de464a81a26be024ae153a40616173596084a8041a128d2194aa2d37814e49e707a7a35f27",
+                        "sha1": "a8199cee9b81b9746dcf4020c76430a5804c91ed"
+                    },
+                    "required_dependencies": [],
+                    "size": 237777,
+                    "date_published": "2025-05-30T03:26:43.310721Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "boss-refreshed-v2-1.19-1.21.zip",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.5",
+                        "1.20.3",
+                        "1.20.1",
+                        "1.20",
+                        "1.20.6",
+                        "1.20.4"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6597/394/boss-refreshed-v2-1.19-1.21.zip",
+                    "id": "6597394",
+                    "parent_id": "882133",
+                    "hashes": {
+                        "sha1": "a8199cee9b81b9746dcf4020c76430a5804c91ed",
+                        "md5": "2bb5cb1f6b050d1a4d44765fe911f959"
+                    },
+                    "required_dependencies": [],
+                    "size": 237777,
+                    "date_published": "2025-05-30T03:12:47.353Z"
                 }
             ]
         },
@@ -3223,6 +3564,41 @@
             ]
         },
         {
+            "pakku_id": "m25sRwMdk4NCiueG",
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "clear-glass-pack"
+            },
+            "name": {
+                "curseforge": "Clear Glass with Connected Textures! [16x]"
+            },
+            "id": {
+                "curseforge": "286633"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Clear Glass Pack 1.20.zip",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4582/171/Clear Glass Pack 1.20.zip",
+                    "id": "4582171",
+                    "parent_id": "286633",
+                    "hashes": {
+                        "sha1": "d1bbeef33c9fff804454bfd1f855f9ae4e703e7d",
+                        "md5": "ea1cc5a3ef7ef52b051277d39e658ab7"
+                    },
+                    "required_dependencies": [],
+                    "size": 588011,
+                    "date_published": "2023-06-12T11:40:36.520Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "vJdu7gQAHnjKcQAw",
             "type": "MOD",
             "side": "BOTH",
@@ -3319,6 +3695,300 @@
                     "required_dependencies": [],
                     "size": 20299,
                     "date_published": "2024-04-21T05:04:02.807Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "kIg0i36u05ifY9LQ",
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "colourful-containers-gui",
+                "modrinth": "colourful-containers-gui"
+            },
+            "name": {
+                "curseforge": "Colourful Containers GUI",
+                "modrinth": "Colourful containers GUI"
+            },
+            "id": {
+                "curseforge": "905855",
+                "modrinth": "L85p0yMA"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "§lColourful Containers§8.zip",
+                    "mc_versions": [
+                        "1.6.1",
+                        "1.6.2",
+                        "1.6.4",
+                        "1.7.2",
+                        "1.7.3",
+                        "1.7.4",
+                        "1.7.5",
+                        "1.7.6",
+                        "1.7.7",
+                        "1.7.8",
+                        "1.7.9",
+                        "1.7.10",
+                        "1.8",
+                        "1.8.1",
+                        "1.8.2",
+                        "1.8.3",
+                        "1.8.4",
+                        "1.8.5",
+                        "1.8.6",
+                        "1.8.7",
+                        "1.8.8",
+                        "1.8.9",
+                        "1.9",
+                        "1.9.1",
+                        "1.9.2",
+                        "1.9.3",
+                        "1.9.4",
+                        "1.10",
+                        "1.10.1",
+                        "1.10.2",
+                        "1.11",
+                        "1.11.1",
+                        "1.11.2",
+                        "1.12",
+                        "1.12.1",
+                        "1.12.2",
+                        "1.13",
+                        "1.13.1",
+                        "1.13.2",
+                        "1.14",
+                        "1.14.1",
+                        "1.14.2",
+                        "1.14.3",
+                        "1.14.4",
+                        "1.15",
+                        "1.15.1",
+                        "1.15.2",
+                        "1.16",
+                        "1.16.1",
+                        "1.16.2",
+                        "1.16.3",
+                        "1.16.4",
+                        "1.16.5",
+                        "1.17",
+                        "1.17.1",
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "22w42a",
+                        "22w43a",
+                        "22w44a",
+                        "1.19.3",
+                        "1.19.4",
+                        "23w14a",
+                        "23w16a",
+                        "1.20",
+                        "1.20.1",
+                        "23w31a",
+                        "23w32a",
+                        "23w33a",
+                        "23w35a",
+                        "1.20.2-pre1",
+                        "1.20.2",
+                        "23w42a",
+                        "23w43a",
+                        "23w43b",
+                        "23w44a",
+                        "23w45a",
+                        "23w46a",
+                        "1.20.3",
+                        "1.20.4",
+                        "24w03a",
+                        "24w03b",
+                        "24w04a",
+                        "24w05a",
+                        "24w05b",
+                        "24w06a",
+                        "24w07a",
+                        "24w09a",
+                        "24w10a",
+                        "24w11a",
+                        "24w12a",
+                        "24w13a",
+                        "24w14potato",
+                        "24w14a",
+                        "1.20.5-pre1",
+                        "1.20.5-pre2",
+                        "1.20.5-pre3",
+                        "1.20.5",
+                        "1.20.6",
+                        "24w18a",
+                        "24w19a",
+                        "24w19b",
+                        "24w20a",
+                        "1.21",
+                        "1.21.1",
+                        "24w33a",
+                        "24w34a",
+                        "24w35a",
+                        "24w36a",
+                        "24w37a",
+                        "24w38a",
+                        "24w39a",
+                        "24w40a",
+                        "1.21.2-pre1",
+                        "1.21.2-pre2",
+                        "1.21.2",
+                        "1.21.3",
+                        "24w44a",
+                        "24w45a",
+                        "24w46a",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11",
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/L85p0yMA/versions/3JSOnZea/§lColourful Containers§8.zip",
+                    "id": "3JSOnZea",
+                    "parent_id": "L85p0yMA",
+                    "hashes": {
+                        "sha512": "f37db20fc13cb6c73900b6938c5e52263a823c2b78b9c212498bb531a54b6d540dc0371a6ad834562e9e6aced9de3ee25f1684dbe6021ecb3874e96dd66a0b19",
+                        "sha1": "e8a8a1d8a3409149a4d9c2557295d74eaed0e2ab"
+                    },
+                    "required_dependencies": [],
+                    "size": 629817,
+                    "date_published": "2026-06-10T15:05:33.510666Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "§lColourful Containers§8.zip",
+                    "mc_versions": [
+                        "1.20.2-Snapshot",
+                        "1.20.5-Snapshot",
+                        "1.20.2",
+                        "1.20.5",
+                        "1.20.1",
+                        "1.20",
+                        "1.20.6",
+                        "1.20-Snapshot",
+                        "1.20.4",
+                        "1.20.3-Snapshot",
+                        "1.20.3"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8226/957/§lColourful Containers§8.zip",
+                    "id": "8226957",
+                    "parent_id": "905855",
+                    "hashes": {
+                        "sha1": "e8a8a1d8a3409149a4d9c2557295d74eaed0e2ab",
+                        "md5": "6f16057ca51dfa150f1834bcd1b36a11"
+                    },
+                    "required_dependencies": [],
+                    "size": 629817,
+                    "date_published": "2026-06-10T15:04:18.207Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ZINgnsoFRfwNCpr4",
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "colourful-containers-modded-compatibility-pack",
+                "modrinth": "colourful-containers-modded-gui-compat"
+            },
+            "name": {
+                "curseforge": "Colourful Containers: Modded GUI Compat",
+                "modrinth": "Colourful Containers: Modded GUI Compat"
+            },
+            "id": {
+                "curseforge": "1128934",
+                "modrinth": "eJB0aDIf"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "§5§lModded §f§lContainers§8.zip",
+                    "mc_versions": [
+                        "1.16",
+                        "1.16.1",
+                        "1.16.2",
+                        "1.16.3",
+                        "1.16.4",
+                        "1.16.5",
+                        "1.17",
+                        "1.17.1",
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/eJB0aDIf/versions/O7Z5GGGw/§5§lModded §f§lContainers§8.zip",
+                    "id": "O7Z5GGGw",
+                    "parent_id": "eJB0aDIf",
+                    "hashes": {
+                        "sha512": "5d1943f44f290535ee895428f81667731c20778572f16a6a0558a5fd2a144eac82b2ac7714c550734ea5bcc1bf60b8ef68b2b6db3265ec30def9150c686308bc",
+                        "sha1": "6684402af569c5ad9d0ac642c1c9fd68d4d00398"
+                    },
+                    "required_dependencies": [],
+                    "size": 1447501,
+                    "date_published": "2025-05-19T21:51:16.428457Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "§5§lModded §f§lContainers§8.zip",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.5",
+                        "1.20.3",
+                        "1.20.1",
+                        "1.20.6",
+                        "1.20.4"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6548/726/§5§lModded §f§lContainers§8.zip",
+                    "id": "6548726",
+                    "parent_id": "1128934",
+                    "hashes": {
+                        "sha1": "6684402af569c5ad9d0ac642c1c9fd68d4d00398",
+                        "md5": "808719a1d1eb3f8de0a9ae6f42d285e6"
+                    },
+                    "required_dependencies": [],
+                    "size": 1447501,
+                    "date_published": "2025-05-19T21:46:19.520Z"
                 }
             ]
         },
@@ -3468,6 +4138,282 @@
                     ],
                     "size": 7016516,
                     "date_published": "2026-02-01T03:04:50.587Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Bm6ecQbKxQfHtahe",
+            "type": "SHADER",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "complementary-reimagined",
+                "modrinth": "complementary-reimagined"
+            },
+            "name": {
+                "curseforge": "Complementary Shaders - Reimagined",
+                "modrinth": "Complementary Shaders - Reimagined"
+            },
+            "id": {
+                "curseforge": "627557",
+                "modrinth": "HVnmMxH1"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "ComplementaryReimagined_r5.8.1.zip",
+                    "mc_versions": [
+                        "1.7.10",
+                        "1.8",
+                        "1.8.1",
+                        "1.8.2",
+                        "1.8.3",
+                        "1.8.4",
+                        "1.8.5",
+                        "1.8.6",
+                        "1.8.7",
+                        "1.8.8",
+                        "1.8.9",
+                        "1.9",
+                        "1.9.1",
+                        "1.9.2",
+                        "1.9.3",
+                        "1.9.4",
+                        "1.10",
+                        "1.10.1",
+                        "1.10.2",
+                        "1.11",
+                        "1.11.1",
+                        "1.11.2",
+                        "1.12",
+                        "1.12.1",
+                        "1.12.2",
+                        "1.13",
+                        "1.13.1",
+                        "1.13.2",
+                        "1.14",
+                        "1.14.1",
+                        "1.14.2",
+                        "1.14.3",
+                        "1.14.4",
+                        "1.15",
+                        "1.15.1",
+                        "1.15.2",
+                        "1.16",
+                        "1.16.1",
+                        "1.16.2",
+                        "1.16.3",
+                        "1.16.4",
+                        "1.16.5",
+                        "1.17",
+                        "1.17.1",
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11",
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2"
+                    ],
+                    "loaders": [
+                        "iris",
+                        "optifine"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/HVnmMxH1/versions/yCCduG44/ComplementaryReimagined_r5.8.1.zip",
+                    "id": "yCCduG44",
+                    "parent_id": "HVnmMxH1",
+                    "hashes": {
+                        "sha512": "6bd95215755d25812556ce790d976221f7d677d63112e3e4d3e70b08a62ed41348fa3792dd31bbe720d1e46fe2d525cadb4f66e6358118e1f4aa8e0d11f25c39",
+                        "sha1": "5a021081f0178ed91dd911194071465ab0a4348b"
+                    },
+                    "required_dependencies": [],
+                    "size": 546925,
+                    "date_published": "2026-05-21T14:50:03.992642Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "ComplementaryReimagined_r5.8.1.zip",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.5",
+                        "1.20.1",
+                        "1.20",
+                        "1.20.6",
+                        "1.20.4",
+                        "1.20.3"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8123/287/ComplementaryReimagined_r5.8.1.zip",
+                    "id": "8123287",
+                    "parent_id": "627557",
+                    "hashes": {
+                        "sha1": "5a021081f0178ed91dd911194071465ab0a4348b",
+                        "md5": "8dbb914ed233d6e8183ce34eb26beaab"
+                    },
+                    "required_dependencies": [],
+                    "size": 546925,
+                    "date_published": "2026-05-21T14:52:53.817Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "8UMYGIdj9PMcUdWB",
+            "type": "SHADER",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "complementary-unbound",
+                "modrinth": "complementary-unbound"
+            },
+            "name": {
+                "curseforge": "Complementary Shaders - Unbound",
+                "modrinth": "Complementary Shaders - Unbound"
+            },
+            "id": {
+                "curseforge": "385587",
+                "modrinth": "R6NEzAwj"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "ComplementaryUnbound_r5.8.1.zip",
+                    "mc_versions": [
+                        "1.7.10",
+                        "1.8",
+                        "1.8.1",
+                        "1.8.2",
+                        "1.8.3",
+                        "1.8.4",
+                        "1.8.5",
+                        "1.8.6",
+                        "1.8.7",
+                        "1.8.8",
+                        "1.8.9",
+                        "1.9",
+                        "1.9.1",
+                        "1.9.2",
+                        "1.9.3",
+                        "1.9.4",
+                        "1.10",
+                        "1.10.1",
+                        "1.10.2",
+                        "1.11",
+                        "1.11.1",
+                        "1.11.2",
+                        "1.12",
+                        "1.12.1",
+                        "1.12.2",
+                        "1.13",
+                        "1.13.1",
+                        "1.13.2",
+                        "1.14",
+                        "1.14.1",
+                        "1.14.2",
+                        "1.14.3",
+                        "1.14.4",
+                        "1.15",
+                        "1.15.1",
+                        "1.15.2",
+                        "1.16",
+                        "1.16.1",
+                        "1.16.2",
+                        "1.16.3",
+                        "1.16.4",
+                        "1.16.5",
+                        "1.17",
+                        "1.17.1",
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11",
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2"
+                    ],
+                    "loaders": [
+                        "iris",
+                        "optifine"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/R6NEzAwj/versions/VMHXIk50/ComplementaryUnbound_r5.8.1.zip",
+                    "id": "VMHXIk50",
+                    "parent_id": "R6NEzAwj",
+                    "hashes": {
+                        "sha512": "9098dd9e0c18b80f7aba2839cea33ce9a614d97665bbfcac87ccce6e4771667c41602d99088852cb1642ccab20b2ceff9b98af8f2e795bd0d3b90b7c9cbab914",
+                        "sha1": "af656a33be2cbd217ea08986ad2cdd76f6bbfe1c"
+                    },
+                    "required_dependencies": [],
+                    "size": 546928,
+                    "date_published": "2026-05-21T14:50:33.267877Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "ComplementaryUnbound_r5.8.1.zip",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.5",
+                        "1.20.1",
+                        "1.20",
+                        "1.20.6",
+                        "1.20.4",
+                        "1.20.3"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8123/288/ComplementaryUnbound_r5.8.1.zip",
+                    "id": "8123288",
+                    "parent_id": "385587",
+                    "hashes": {
+                        "sha1": "af656a33be2cbd217ea08986ad2cdd76f6bbfe1c",
+                        "md5": "0a3553109dbe689a9f76d1aedc8f50c6"
+                    },
+                    "required_dependencies": [],
+                    "size": 546928,
+                    "date_published": "2026-05-21T14:53:22.100Z"
                 }
             ]
         },
@@ -6555,6 +7501,39 @@
             ]
         },
         {
+            "pakku_id": "pOXPVYS3u5afC5KX",
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "epic-fight-x-irons-spells-armor-fix"
+            },
+            "name": {
+                "curseforge": "Epic Fight x Iron's Spells Armor Fix"
+            },
+            "id": {
+                "curseforge": "957963"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "EFMxIronsV3.1-1.20.1.zip",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6967/801/EFMxIronsV3.1-1.20.1.zip",
+                    "id": "6967801",
+                    "parent_id": "957963",
+                    "hashes": {
+                        "sha1": "a9a0d807c337b087e26c6f4ee736b1e94003181e",
+                        "md5": "9ce59c6d200790748b9247c98b453b33"
+                    },
+                    "required_dependencies": [],
+                    "size": 501698,
+                    "date_published": "2025-09-06T03:22:49.140Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "3RqWnrjEv2arsc9d",
             "type": "MOD",
             "side": "BOTH",
@@ -6617,6 +7596,39 @@
                     "required_dependencies": [],
                     "size": 247739,
                     "date_published": "2026-01-06T05:28:11.500Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "WxoZmNO7Wd9wVUub",
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "epic-fight-x-t-o-magic-n-extras-armors-patch"
+            },
+            "name": {
+                "curseforge": "Epic Fight x T.O Magic 'n Extras - Armors Patch"
+            },
+            "id": {
+                "curseforge": "1236057"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "EFM_Traveloptics-armors-patch(v1.3).zip",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6473/758/EFM_Traveloptics-armors-patch(v1.3).zip",
+                    "id": "6473758",
+                    "parent_id": "1236057",
+                    "hashes": {
+                        "sha1": "44abf58de2ff9b9eefedca0ff0db942f80b80994",
+                        "md5": "319e0b7708769735ebe8ff3fbe96a7f1"
+                    },
+                    "required_dependencies": [],
+                    "size": 869963,
+                    "date_published": "2025-04-28T15:07:36.147Z"
                 }
             ]
         },
@@ -6698,6 +7710,39 @@
                     ],
                     "size": 19348884,
                     "date_published": "2025-08-26T18:13:22.947Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "gRXFXxScQA8L0P9s",
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "epicfight-model-compats"
+            },
+            "name": {
+                "curseforge": "EpicFight model compats"
+            },
+            "id": {
+                "curseforge": "1189432"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Curios_Compat.zip",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6136/714/Curios_Compat.zip",
+                    "id": "6136714",
+                    "parent_id": "1189432",
+                    "hashes": {
+                        "sha1": "c37acdf91ea4e482305773ee210ef533344f4dda",
+                        "md5": "636d346412ca8d137f4c619212c786ae"
+                    },
+                    "required_dependencies": [],
+                    "size": 6119,
+                    "date_published": "2025-01-29T14:33:01.790Z"
                 }
             ]
         },
@@ -10290,6 +11335,39 @@
             ]
         },
         {
+            "pakku_id": "uQm76uv4WcTmGUUU",
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "integrated-stronghold-the-graveyard-integration"
+            },
+            "name": {
+                "curseforge": "Integrated Stronghold- The Graveyard Integration"
+            },
+            "id": {
+                "curseforge": "832112"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "intstrong_graveyard-1.0.0-1.20.1.zip",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5134/399/intstrong_graveyard-1.0.0-1.20.1.zip",
+                    "id": "5134399",
+                    "parent_id": "832112",
+                    "hashes": {
+                        "sha1": "205daf5dcae0c8045eaea2a7462d58701d6b65be",
+                        "md5": "f669fce5b3beb62e6f5d28d5276dd784"
+                    },
+                    "required_dependencies": [],
+                    "size": 2571,
+                    "date_published": "2024-02-25T03:23:07.817Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "sWRkMBjRNpTOR1Yw",
             "type": "MOD",
             "side": "BOTH",
@@ -12900,6 +13978,143 @@
                     "required_dependencies": [],
                     "size": 15244,
                     "date_published": "2023-12-14T10:57:06.593Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "HqjjkIYLEU9Zy2uR",
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "low-on-fire",
+                "modrinth": "low-on-fire"
+            },
+            "name": {
+                "curseforge": "Low On Fire",
+                "modrinth": "Low On Fire"
+            },
+            "id": {
+                "curseforge": "580683",
+                "modrinth": "RRxvWKNC"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "LowOnFire v26.1§8.zip",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1",
+                        "23w31a",
+                        "23w32a",
+                        "23w33a",
+                        "23w35a",
+                        "1.20.2-pre1",
+                        "1.20.2",
+                        "23w42a",
+                        "23w43a",
+                        "23w43b",
+                        "23w44a",
+                        "23w45a",
+                        "23w46a",
+                        "1.20.3",
+                        "1.20.4",
+                        "24w03a",
+                        "24w03b",
+                        "24w04a",
+                        "24w05a",
+                        "24w05b",
+                        "24w06a",
+                        "24w07a",
+                        "24w09a",
+                        "24w10a",
+                        "24w11a",
+                        "24w12a",
+                        "24w13a",
+                        "24w14potato",
+                        "24w14a",
+                        "1.20.5-pre1",
+                        "1.20.5-pre2",
+                        "1.20.5-pre3",
+                        "1.20.5",
+                        "1.20.6",
+                        "24w18a",
+                        "24w19a",
+                        "24w19b",
+                        "24w20a",
+                        "1.21",
+                        "1.21.1",
+                        "24w33a",
+                        "24w34a",
+                        "24w35a",
+                        "24w36a",
+                        "24w37a",
+                        "24w38a",
+                        "24w39a",
+                        "24w40a",
+                        "1.21.2-pre1",
+                        "1.21.2-pre2",
+                        "1.21.2",
+                        "1.21.3",
+                        "24w44a",
+                        "24w45a",
+                        "24w46a",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11",
+                        "26.1-snapshot-1",
+                        "26.1-snapshot-2",
+                        "26.1-snapshot-3",
+                        "26.1-snapshot-4",
+                        "26.1-snapshot-5",
+                        "26.1-snapshot-6",
+                        "26.1-snapshot-7",
+                        "26.1-snapshot-8",
+                        "26.1-snapshot-9",
+                        "26.1-snapshot-10",
+                        "26.1-snapshot-11",
+                        "26.1-pre-1",
+                        "26.1-pre-2",
+                        "26.1-pre-3",
+                        "26.1-rc-1",
+                        "26.1-rc-2",
+                        "26.1-rc-3",
+                        "26.1"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/RRxvWKNC/versions/51HGHxtv/LowOnFire v26.1§8.zip",
+                    "id": "51HGHxtv",
+                    "parent_id": "RRxvWKNC",
+                    "hashes": {
+                        "sha512": "713a20a8171c8249c30d9eb72342162754c627c7a86dc0971cb555faf43c322c181fd5546e0c770fc9ae922161ee846a7af951267c1d9a8a75af466a17e19d5e",
+                        "sha1": "96932a034fff4cd0cad08ba12db730450c4772da"
+                    },
+                    "required_dependencies": [],
+                    "size": 42760,
+                    "date_published": "2026-03-27T21:59:47.347953Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "LowOnFire v26.1§8.zip",
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7825/035/LowOnFire v26.1§8.zip",
+                    "id": "7825035",
+                    "parent_id": "580683",
+                    "hashes": {
+                        "sha1": "96932a034fff4cd0cad08ba12db730450c4772da",
+                        "md5": "2da4bdc3e7f15a32aa1b4f17a4c4a7ad"
+                    },
+                    "required_dependencies": [],
+                    "size": 42760,
+                    "date_published": "2026-03-27T22:00:55.440Z"
                 }
             ]
         },
@@ -18280,6 +19495,89 @@
             ]
         },
         {
+            "pakku_id": "jZ1VkMWB2nbNMnTC",
+            "type": "RESOURCE_PACK",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "soft-weather",
+                "modrinth": "soft-weather"
+            },
+            "name": {
+                "curseforge": "Soft Weather",
+                "modrinth": "Soft Weather"
+            },
+            "id": {
+                "curseforge": "537890",
+                "modrinth": "BBINRWgi"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Soft-Weather-1.0-Universal.zip",
+                    "mc_versions": [
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7"
+                    ],
+                    "loaders": [
+                        "minecraft"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/BBINRWgi/versions/iAb7bpl5/Soft-Weather-1.0-Universal.zip",
+                    "id": "iAb7bpl5",
+                    "parent_id": "BBINRWgi",
+                    "hashes": {
+                        "sha512": "d0fc4e1def1b44669df6e8e30e9a43b6eb1bbf8625166e0fa504f2b473c3d766e7a5280ec198268cfed7851d62b7ae5d67d925e944d3c54d296c7d684f4d02fb",
+                        "sha1": "a47863b55f54b94473295960ca69f3e35d3ba4d0"
+                    },
+                    "required_dependencies": [],
+                    "size": 6534,
+                    "date_published": "2025-07-03T01:14:48.494683Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "Soft-Weather-1.0-Universal.zip",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.5",
+                        "1.20.3",
+                        "1.20.1",
+                        "1.20",
+                        "1.20.6",
+                        "1.20.4"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6724/67/Soft-Weather-1.0-Universal.zip",
+                    "id": "6724067",
+                    "parent_id": "537890",
+                    "hashes": {
+                        "sha1": "a47863b55f54b94473295960ca69f3e35d3ba4d0",
+                        "md5": "bed60d113d9ecdfb8bfaae689be315c6"
+                    },
+                    "required_dependencies": [],
+                    "size": 6534,
+                    "date_published": "2025-07-03T06:13:32.330Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "WuXvjMdGlmaCgtAK",
             "pakku_links": [
                 "3tFclr1zwGTKhLyC"
@@ -21347,6 +22645,41 @@
                     "required_dependencies": [],
                     "size": 1105891,
                     "date_published": "2025-03-23T19:12:56.087Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "3cjEksWNcV0SmY4V",
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "yor-forger-beds"
+            },
+            "name": {
+                "curseforge": "Yor Forger Beds"
+            },
+            "id": {
+                "curseforge": "1243476"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Yor Forger 1.20-1.20.1.zip",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6425/199/Yor Forger 1.20-1.20.1.zip",
+                    "id": "6425199",
+                    "parent_id": "1243476",
+                    "hashes": {
+                        "sha1": "f209f22fe95132ea95f9dd078bba2903fc52b78f",
+                        "md5": "828152f3db820bd69c6c59dc5bb3021e"
+                    },
+                    "required_dependencies": [],
+                    "size": 5014981,
+                    "date_published": "2025-04-15T10:12:32.063Z"
                 }
             ]
         },
