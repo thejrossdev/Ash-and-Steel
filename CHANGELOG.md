@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changes
 
+### Bug fixes
+
+### Mods
+
+## [0.0.2] - 2026-06-24
+
+### Changes
+
 - Add KubeJs server_scripts with recipes
 - Add KubeJs startup_scripts
 - Add KubeJs client_scripts
