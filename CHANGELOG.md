@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Mods
 
+- Add [Geolosys](https://www.curseforge.com/minecraft/mc-mods/geolosys), which allows TerraFirmaCraft styled ore generation.
 - Add [KubeJS Create](https://www.curseforge.com/minecraft/mc-mods/kubejs-create), which allows you to add and properly edit recipes of Create mod in KubeJS scripts.
 - Add [Ice and Fire: Dragons](https://www.curseforge.com/minecraft/mc-mods/ice-and-fire-dragons), which add Dragons and Mythical creatures.
 - Add [Ice And Fire Patcher](https://www.curseforge.com/minecraft/mc-mods/ice-and-fire-patcher), which fix some critical bugs and crashes in mod Ice And Fire.

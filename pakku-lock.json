@@ -71,38 +71,63 @@
             ]
         },
         {
-            "pakku_id": "WJ8h17foz3W1QfZJ",
+            "pakku_id": "mfwUAvMXC29J9sij",
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
-                "curseforge": "astages"
+                "curseforge": "astages",
+                "modrinth": "astages"
             },
             "name": {
-                "curseforge": "AStages"
+                "curseforge": "AStages",
+                "modrinth": "AStages"
             },
             "id": {
-                "curseforge": "1120180"
+                "curseforge": "1120180",
+                "modrinth": "6wy8fmIk"
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "astages-0.9.0-1.20.1.jar",
+                    "type": "modrinth",
+                    "file_name": "astages-2.2.0-1.20.1-all.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/6100/829/astages-0.9.0-1.20.1.jar",
-                    "id": "6100829",
-                    "parent_id": "1120180",
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/6wy8fmIk/versions/1lc4xNqH/astages-2.2.0-1.20.1-all.jar",
+                    "id": "1lc4xNqH",
+                    "parent_id": "6wy8fmIk",
                     "hashes": {
-                        "sha1": "9f238029449af1ca6a00b257cc6db2c1395a20cf",
-                        "md5": "b666e853d85cbd1e0fccfbdca7719e40"
+                        "sha512": "f3c203f830505438403ecf7a1a12ff273ed65298d8e594bc4443e4647fd26d4a749980bc0007f946dce73499c75ec4ac2f29d99b1e25cf26ef44e80f15f50f8d",
+                        "sha1": "dfe59b3bd6ca5dbb28d1f048aff63a209e2aacf9"
                     },
                     "required_dependencies": [],
-                    "size": 281116,
-                    "date_published": "2025-01-18T20:51:16.243Z"
+                    "size": 1004479,
+                    "date_published": "2026-06-21T10:40:01.131382Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "astages-2.2.0-1.20.1-all.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8292/440/astages-2.2.0-1.20.1-all.jar",
+                    "id": "8292440",
+                    "parent_id": "1120180",
+                    "hashes": {
+                        "sha1": "dfe59b3bd6ca5dbb28d1f048aff63a209e2aacf9",
+                        "md5": "4f12ccde2c5d82020c7a8ec57be4d420"
+                    },
+                    "required_dependencies": [],
+                    "size": 1004479,
+                    "date_published": "2026-06-21T10:40:00.927Z"
                 }
             ]
         },
@@ -9723,6 +9748,43 @@
                     "required_dependencies": [],
                     "size": 1039046,
                     "date_published": "2026-01-31T01:40:51.330Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "gt7O4WLn0pBf8yaC",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "geolosys"
+            },
+            "name": {
+                "modrinth": "Geolosys"
+            },
+            "id": {
+                "modrinth": "aPBZx3jD"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Geolosys-1.20.1-7.0.14.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/aPBZx3jD/versions/YsOxs3Dy/Geolosys-1.20.1-7.0.14.jar",
+                    "id": "YsOxs3Dy",
+                    "parent_id": "aPBZx3jD",
+                    "hashes": {
+                        "sha512": "ae9bb911ee76f700a4239fc5c08cdf26b657a57df32ceeecb1bdfa30cdd64ca0151fcb1e1699ecd699de8340d1393d5f246aa2bda984523a7c541d268caac4c0",
+                        "sha1": "fb022b8e77b8db1b8c06b57586c94838bd715ae2"
+                    },
+                    "required_dependencies": [],
+                    "size": 706909,
+                    "date_published": "2025-07-31T21:51:08.775515Z"
                 }
             ]
         },
