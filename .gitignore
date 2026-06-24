@@ -11,6 +11,9 @@ build/
 **/*.mrpack
 **/*.code-workspace
 **/*.zip
+!config/openloader/**/*.zip
+!.pakku/client-overrides/resourcepacks/*.zip
+!.pakku/client-overrides/shaderpacks/*.zip
 
 # Configs
 config/jei/world/
@@ -68,6 +71,7 @@ node_modules/
 /schematics
 /scripts
 /mods
+/resourcepacks
 
 # Only Server files
 # .pakku/server-overrides/libraries
@@ -119,4 +123,5 @@ local/
 
 # Other
 .continue
+kubejs_dev
 

@@ -1,7 +1,6 @@
 {
 	"name": "AshAndSteel",
 	"version": "DEV",
-	"release_type": "alpha",
 	"description": ".",
 	"author": "therossdev",
 	"overrides": [
@@ -18,7 +17,6 @@
 		"!defaultconfigs/ftbranks/ranks.snbt",
 		"!config/ftbbackups2.json"
 	],
-	"server_overrides": [],
 	"client_overrides": [
 		"resourcepacks",
 		"shaderpacks",
@@ -27,10 +25,12 @@
 		"defaultconfigs/ftbranks/ranks.snbt"
 	],
 	"projects": {
+		"melody": {
+			"side": "CLIENT"
+		},
 		"probejs": {
 			"side": "CLIENT",
 			"export": false
 		}
-	},
-	"export_server_side_projects_to_client": true
+	}
 }
