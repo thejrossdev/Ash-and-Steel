@@ -13,6 +13,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Mods
 
+- Add [Create JEI Compat](https://www.curseforge.com/minecraft/mc-mods/createjeicompat), which add compatibility mod for Create and JEI that enhances the display of sequenced assembly recipes in JEI for 7+ steps.
+- Add [Just Enough Filters (JEF)](https://www.curseforge.com/minecraft/mc-mods/just-enough-filters), which allows filtering for JEI/REI/EMI.
+- Add [Advanced Loot Info (ALI)](https://www.curseforge.com/minecraft/mc-mods/advanced-loot-info), which displaying advanced information about loot tables, villager trades and more for EMI/JEI/REI.
+- Add [JEI Gateways](https://www.curseforge.com/minecraft/mc-mods/jei-gateways), which displaying advanced information about Gateways for JEI.
+- Add [Save My Shaky Network](https://www.curseforge.com/minecraft/mc-mods/smsn), which allow block common mods from connecting to the internet without affecting the mods' functionality, preventing slow loading or game crashes caused by network issues.
+- Add [Capability Fix Revived](https://www.curseforge.com/minecraft/mc-mods/capability-fix-revived), which reduces server lag by optimizing entity capability lookups with a profiling tool and a whitelist-based caching system.
+- Add [Sophisticated Storage Create Integration](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage-create-integration), which allows Create work with Sophisticated Storage.
+- Add [Sophisticated Backpacks Create Integration](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks-create-integration), which allows Create work with Sophisticated Backpacks.
+
 ## [0.0.2] - 2026-06-24
 
 ### Changes
