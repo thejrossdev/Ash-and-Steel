@@ -13,6 +13,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Mods
 
+## [0.0.3] - 2026-07-02
+
+### Changes
+
+### Bug fixes
+
+### Mods
+
 - Add [Create JEI Compat](https://www.curseforge.com/minecraft/mc-mods/createjeicompat), which add compatibility mod for Create and JEI that enhances the display of sequenced assembly recipes in JEI for 7+ steps.
 - Add [Just Enough Filters (JEF)](https://www.curseforge.com/minecraft/mc-mods/just-enough-filters), which allows filtering for JEI/REI/EMI.
 - Add [Advanced Loot Info (ALI)](https://www.curseforge.com/minecraft/mc-mods/advanced-loot-info), which displaying advanced information about loot tables, villager trades and more for EMI/JEI/REI.
