@@ -7,6 +7,7 @@ let ns = global.Namespace;
  * ====== TAGS ======
  */
 global.TAGS = {
+	REMOVED: "is_removed",
 	ORES_ALL: "aas:ores",
 	ORE: "aas:ore",
 	ORES: {
@@ -339,47 +340,47 @@ global.ORES = {
 	/**
 	 * @type {string[]} - Ruby ores
 	 */
-	ORES_RUBY: [ns.ter("igneo_ruby_ore"), ns.ter("nether_ruby_ore")],
+	RUBY: [ns.ter("igneo_ruby_ore"), ns.ter("nether_ruby_ore")],
 
 	/**
 	 * @type {string[]} - Topaz ores
 	 */
-	ORES_TOPAZ: [ns.ter("topaz_ore"), ns.ter("deepslate_topaz_ore")],
+	TOPAZ: [ns.ter("topaz_ore"), ns.ter("deepslate_topaz_ore")],
 
 	/**
 	 * @type {string[]} - Iridium ores
 	 */
-	ORES_IRIDIUM: [ns.ter("nether_iridium_ore"), ns.ter("end_iridium_ore"), ns.ter("deepslate_iridium_ore")],
+	IRIDIUM: [ns.ter("nether_iridium_ore"), ns.ter("end_iridium_ore"), ns.ter("deepslate_iridium_ore")],
 
 	/**
 	 * @type {string[]} - Onyx ores
 	 */
-	ORES_ONYX: [ns.ter("end_onyx_ore")],
+	ONYX: [ns.ter("end_onyx_ore")],
 
 	/**
 	 * @type {string[]} - Profaned ores
 	 */
-	ORES_PROFANED: [ns.ter("profaned_ore")],
+	PROFANED: [ns.ter("profaned_ore")],
 
 	/**
 	 * @type {string[]} - Iridescent ores
 	 */
-	ORES_IRIDESCENT: [ns.ter("deepslate_iridescent_ore")],
+	IRIDESCENT: [ns.ter("deepslate_iridescent_ore")],
 
 	/**
 	 * @type {string[]} - Daemonium ores
 	 */
-	ORES_DAEMONIUM: [ns.ter("daemonium_ore")],
+	DAEMONIUM: [ns.ter("daemonium_ore")],
 
 	/**
 	 * @type {string[]} - Gaianite ores
 	 */
-	ORES_GAIANITE: [ns.ter("gaianite_cluster_ore")],
+	GAIANITE: [ns.ter("gaianite_cluster_ore")],
 
 	/**
 	 * @type {string[]} - Dimlite ores
 	 */
-	ORES_DIMLITE: [ns.ter("deepslate_dimlite_ore")],
+	DIMLITE: [ns.ter("deepslate_dimlite_ore")],
 
 	/**
 	 * @type {string[]} - Titanium ores
@@ -410,46 +411,12 @@ global.ORES = {
 	 * @type {string[]} - Igneous ores
 	 */
 	IGNEOUS: [ns.dc("igneous_ore"), ns.dc("igneous_ore_netherrack")],
-	/**
-	 * @type {string[]} - All the ores
-	 */
-	ALL: this.COAL.concat(
-		this.IRON,
-		this.GOLD,
-		this.COPPER,
-		this.REDSTONE,
-		this.EMERALD,
-		this.LAPIS,
-		this.DIAMOND,
-		this.ZINC,
-		this.MITHRIL,
-		this.CITRIN,
-		this.MOONLIGHT,
-		this.SCARLET,
-		this.ENDERIUM,
-		this.ARCANE_CRYSTAL,
-		this.XPETRIFIED,
-		this.SILVER,
-		this.EBONY,
-		this.SAPPHIRE,
-		this.BLACK_MATTER,
-		this.RUBY,
-		this.TOPAZ,
-		this.IRIDIUM,
-		this.ONYX,
-		this.PROFANED,
-		this.IRIDESCENT,
-		this.DAEMONIUM,
-		this.GAIANITE,
-		this.DIMLITE,
-		this.TITANIUM,
-		this.QUARTZ,
-		this.ANCIENT_DEBRIS,
-		this.URANIUM,
-		this.STELLA_ARCANUM,
-		this.IGNEOUS,
-	),
 };
+
+/**
+ * @type {string[]} - All the ores
+ */
+global.ORES.ALL = Array.prototype.concat.apply([], Object.values(global.ORES));
 
 global.ITEMS = {
 	/**
