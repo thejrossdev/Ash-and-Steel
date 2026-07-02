@@ -286,17 +286,6 @@
         "value": 1024
       }
     },
-    "waifu_of_god:hu_khong_day_ai_state": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100000,
-        "value": 100000
-      }
-    },
     "epicfight:offhand_impact": {
       "enabled": false,
       "min": {
@@ -306,6 +295,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "waifu_of_god:hu_khong_day_ai_state": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100000,
+        "value": 100000
       }
     },
     "minecraft:zombie.spawn_reinforcements": {

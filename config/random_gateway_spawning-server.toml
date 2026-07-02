@@ -1,5 +1,5 @@
 #Turn on debug mode
-debug_mode = true
+debug_mode = false
 #Spawn rate percentage (1–100). Used if spawn_day is 0
 #Range: 1 ~ 100
 spawn_rate = 20

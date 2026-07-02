@@ -43,7 +43,7 @@
 			#剔除深度 (1-4)，值越大剔除越激进但可能出现bug
 			#Culling depth (1-4), Higher values = more aggressive culling but may cause bugs
 			#Range: 1 ~ 4
-			ultraDepth = 5
+			ultraDepth = 4
 			#仅剔除背向玩家的面（防止正面消失），值范围0.0-1.0
 			#Only cull backfaces (prevent front-face disappearance), value range 0.0-1.0
 			#Range: 0.0 ~ 1.0

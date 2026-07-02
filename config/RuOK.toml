@@ -1,4 +1,3 @@
-onCull = false
 MaxEntityEntities = 128
 qualityModes = "NORMAL"
 RenderWeather = "NORMAL"
@@ -9,39 +8,81 @@ whiteListedEntities = ["minecraft:player"]
 BlackTagListEntity = []
 WhiteTagListEntity = []
 isAlwaysShowItemCount = false
-startTime = 94.214
-onGui = true
-GuiRXTX = true
-GuiFPS = true
-GuiCPU = true
-GuiGPU = true
-GuiRAM = true
-GuiEntityCount = true
-GuiPlayerPos = true
-GuiServer = true
-GuiCameraTarget = false
+startTime = 86.936
+Hud = true
+HudRXTX = true
+HudFPS = true
+HudCPU = true
+HudGPU = true
+HudRAM = true
+HudPlayerPos = true
+HudServer = true
+HudCameraTarget = false
 Mood = false
 MaxParticleDistance = 128
 WhiteListedParticle = []
 BlackListedParticle = []
 GuiEasyRamMode = true
 GuiDisplayRamUsage = false
-GuiX = 0
-GuiY = 0
 UseAui = false
-DeBug = false
-TextBackground = false
+TextBackground = true
 TextureAnimatedSprites = true
 SoundDevicesMonitor = false
 SetParticleMaxAge = false
 ParticleMaxAge = 1
-GuiViewMode = "EMPTY"
 MinDistance = 5
 EntityDistance = 64
-TickPerformance = true
 ParticlePerformance = false
-EntityPerformance = true
-EntityViewDebug = false
 ParticleCountLimit = 16384
 BlockBreakParticle = true
 AsyncCompute = false
+SoftCull = true
+DynamicEntityBudget = true
+BlackBlockEntities = []
+WhiteBlockEntities = []
+MaxBlockEntityCount = 64
+BlockEntityDistance = 256
+onCull = false
+VisibleCulling = true
+EntityRenderPerformance = false
+CullMode = "COMPATIBILITY"
+ParticleFastCollision = false
+CullBlockEntity = false
+CullEntity = false
+CullParticle = false
+
+[[HudTextConfig]]
+key = "ruok.options.hud.fps.info"
+x = 4
+y = 4
+enabled = true
+
+[[HudTextConfig]]
+key = "ruok.options.hud.system.info"
+x = 4
+y = 17
+enabled = true
+
+[[HudTextConfig]]
+key = "ruok.options.hud.playerpos.info"
+x = 4
+y = 30
+enabled = true
+
+[[HudTextConfig]]
+key = "ruok.options.hud.server.info"
+x = 4
+y = 43
+enabled = true
+
+[[HudTextConfig]]
+key = "ruok.options.hud.cameratarget.info"
+x = 4
+y = 56
+enabled = false
+
+[[HudTextConfig]]
+key = "ruok.options.hud.rtxt.info"
+x = 4
+y = 69
+enabled = true
