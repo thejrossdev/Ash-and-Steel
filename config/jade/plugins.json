@@ -87,6 +87,10 @@
     "ench": true,
     "spawner": true
   },
+  "iceandfire": {
+    "multipart": true,
+    "dragon": true
+  },
   "balm": {
     "jade": true
   },

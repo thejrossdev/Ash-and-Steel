@@ -21,7 +21,9 @@
 		// Sets the level for the max Anvil experience level for 'Too expensive' to show'
 		"maxAnvilLevel": 40,
 		// Disables the anvil level patch. Has mod compatibility issues
-		"useAnvilMod": false
+		"useAnvilMod": false,
+		// Enables simple crash screen
+		"enableCrashScreen": true
 	},
 	"antiCheat": {
 		// Prevents players from stepping up one block (stepping does not reduce hunger)

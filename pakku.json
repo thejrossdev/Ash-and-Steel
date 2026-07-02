@@ -28,6 +28,9 @@
 		"melody": {
 			"side": "CLIENT"
 		},
+		"lightspeedre": {
+			"side": "CLIENT"
+		},
 		"probejs": {
 			"side": "CLIENT",
 			"export": false

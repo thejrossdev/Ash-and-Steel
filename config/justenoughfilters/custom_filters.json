@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Ores",
+    "icon": "minecraft:iron_ore",
+    "ops": [
+      {
+        "bin": "first",
+        "unary": "so",
+        "filter": {
+          "provider": "has_tag",
+          "input": "aas:ores"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Apotheosis gems",
+    "icon": "apotheosis:gem",
+    "ops": [
+      {
+        "bin": "first",
+        "unary": "so",
+        "filter": {
+          "provider": "id_is",
+          "input": "apotheosis:gem"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Enchants",
+    "icon": "quark:ancient_tome",
+    "ops": [
+      {
+        "bin": "first",
+        "unary": "so",
+        "filter": {
+          "provider": "id_is",
+          "input": "quark:ancient_tome"
+        }
+      },
+      {
+        "bin": "or",
+        "unary": "so",
+        "filter": {
+          "provider": "id_is",
+          "input": "minecraft:enchanted_book"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Scrolls",
+    "icon": "irons_spellbooks:scroll",
+    "ops": [
+      {
+        "bin": "first",
+        "unary": "so",
+        "filter": {
+          "provider": "id_is",
+          "input": "irons_spellbooks:scroll"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Potions",
+    "icon": "minecraft:potion",
+    "ops": [
+      {
+        "bin": "first",
+        "unary": "so",
+        "filter": {
+          "provider": "id_is",
+          "input": "minecraft:potion"
+        }
+      },
+      {
+        "bin": "or",
+        "unary": "so",
+        "filter": {
+          "provider": "id_is",
+          "input": "minecraft:splash_potion"
+        }
+      },
+      {
+        "bin": "or",
+        "unary": "so",
+        "filter": {
+          "provider": "id_is",
+          "input": "minecraft:lingering_potion"
+        }
+      }
+    ]
+  }
+]
