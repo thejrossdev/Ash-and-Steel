@@ -1,0 +1,53 @@
+{
+  "scanRadius": 128,
+  "blocks": {
+    "geolosys:deepslate_anthracite_coal_ore": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 255
+    },
+    "geolosys:deepslate_lignite_ore": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 255
+    },
+    "geolosys:anthracite_coal_ore": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 255
+    },
+    "geolosys:lignite_ore": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 255
+    },
+    "mofus_better_end_:meteorite_coal_ore": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 255
+    },
+    "geolosys:deepslate_bituminous_coal_ore": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 255
+    },
+    "geolosys:bituminous_coal_ore": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 255
+    },
+    "geolosys:deepslate_coal_ore": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 255
+    }
+  }
+}

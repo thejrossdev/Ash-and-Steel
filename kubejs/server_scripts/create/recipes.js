@@ -25,9 +25,15 @@ function registerCreateRecipes(e) {
 	// Sand ==> clay + copper nugget
 	create.splashing(
 		[
+<<<<<<< HEAD
 			Item.of(ns.cr("copper_nugget"), 6).withChance(0.3),
 			Item.of(ns.mc("clay_ball"), 1).withChance(0.4),
 			Item.of(ns.mc("clay_ball"), 3).withChance(0.3),
+=======
+			ns.cr("copper_nugget", 6).withChance(0.3),
+			ns.mc("clay_ball", 1).withChance(0.4),
+			ns.mc("clay_ball", 3).withChance(0.3),
+>>>>>>> origin/master
 		],
 		ns.mc("sand"),
 	);
@@ -35,9 +41,15 @@ function registerCreateRecipes(e) {
 	// Clay ==> kelp, seaweed, sea cucumbers
 	create.splashing(
 		[
+<<<<<<< HEAD
 			Item.of(ns.mc("kelp"), 1).withChance(0.3),
 			Item.of(ns.mc("seagrass"), 1).withChance(0.35),
 			Item.of(ns.mc("sea_pickle"), 1).withChance(0.35),
+=======
+			ns.mc("kelp", 1).withChance(0.3),
+			ns.mc("seagrass", 1).withChance(0.35),
+			ns.mc("sea_pickle", 1).withChance(0.35),
+>>>>>>> origin/master
 		],
 		ns.mc("clay"),
 	);

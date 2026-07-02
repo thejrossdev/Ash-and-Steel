@@ -111,6 +111,7 @@ global.Namespace = {
 	 * @returns string
 	 * */
 	arst: (id, x) => global.Namespace.mod(`ars_technica`, id, x),
+<<<<<<< HEAD
 	/**
 	 * Geolosys
 	 * @param {string} id
@@ -193,4 +194,6 @@ global.KUtils = {
 		elements.filter((element, index, array) => {
 			element.startsWith(resource);
 		}),
+=======
+>>>>>>> origin/master
 };
