@@ -10,6 +10,14 @@ global.TAGS = {
 	REMOVED: "is_removed",
 	ORES_ALL: "aas:ores",
 	ORE: "aas:ore",
+	TIER_KEY: "aas:tier",
+	TIER: {
+		S: `${this.TIER_KEY}/S`,
+		A: `${this.TIER_KEY}/A`,
+		B: `${this.TIER_KEY}/B`,
+		C: `${this.TIER_KEY}/C`,
+		D: `${this.TIER_KEY}/D`,
+	},
 	ORES: {
 		COAL: `${this.ORE}/coal`,
 		IRON: `${this.ORE}/iron`,
