@@ -13,6 +13,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Mods
 
+## [0.0.4] - 2026-08-05
+
+### Changes
+
+- Remove and Updates mods
+
+### Bug fixes
+
+### Mods
+
 ## [0.0.3] - 2026-07-02
 
 ### Changes
